@@ -18,11 +18,11 @@ export default function Login() {
         <div className="max-w-sm w-full space-y-8">
             <div>
                 <Image
-                    className="mx-auto h-12 w-auto"
+                    className="mx-auto"
                     src={elite}
                     alt="Workflow"
-                    width={200}
-                    height={200}
+                    width={150}
+                    height={100}
                 />
                 <h2 className="mt-6 text-center text-3xl font-extrabold text-primary">
                     {
