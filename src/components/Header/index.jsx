@@ -10,7 +10,7 @@ export default function Header() {
   const sections = ["Início", "Produtos", "Depoimentos", "Contato"]
 
   return (
-    <header className="fixed w-screen bg-white">
+    <header className="w-screen bg-white fixed">
       <nav className="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div className="flex items-center gap-2">
