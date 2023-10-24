@@ -6,6 +6,19 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #eff6ff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #010449;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1e3a8a;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
