@@ -35,19 +35,19 @@ export default function Login() {
                 </h2>
             </div>
             <div className="flex flex-col justify-center items-center gap-2">
-                {session && session.user.email === "wesleydematos3@gmail.com" && <Link href="/secret/adm" className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-[#3d3e68] focus:outline-none focus:ring-2 focus:ring-offset-2">Ir para o painel</Link>}
+                {session && session.user.email === "wesleydematos3@gmail.com" && <Link href="/secret/adm" className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2">Ir para o painel</Link>}
 
                 {session && session.user.email !== "wesleydematos3@gmail.com" && <p className="text-secondary text-center">Você não possui permissão para acessar o painel.</p>}
                 
                 <Link 
                     href="/" 
-                    className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-[#3d3e68] focus:outline-none focus:ring-2 focus:ring-offset-2">
+                    className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2">
                     Voltar para Home
                 </Link>
 
 
                 <button
-                    className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-[#3d3e68] focus:outline-none focus:ring-2 focus:ring-offset-2"
+                    className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2"
                     onClick={() =>{ session ? signOut() : signIn("google")}}
                 >
                     { session ? "Sair" : "Entrar" }
