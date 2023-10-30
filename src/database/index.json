@@ -1,0 +1,118 @@
+{
+  "preWorkout": [
+    {
+      "name": "",
+      "imageURL": "",
+      "weight": "",
+      "flavor": "",
+      "description": "",
+      "whenToTake": "",
+      "brand": "",
+      "price": ""
+    }
+  ],
+  "creatine": [
+    {
+      "name": "Creatina Turbo",
+      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158474-800-auto?v=638283906216530000&width=800&height=auto&aspect=true",
+      "weight": "300g",
+      "flavor": "Sem sabor",
+      "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
+      "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+      "brand": "Black Skull",
+      "price": "90"
+    },
+    {
+      "name": "Creatina Turbo",
+      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158470-800-auto?v=638283901057230000&width=800&height=auto&aspect=true",
+      "weight": "150g",
+      "flavor": "Sem sabor",
+      "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
+      "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+      "brand": "Black Skull",
+      "price": "65"
+    }
+  ],
+  "protein": [
+    {
+      "name": "Nutri Whey Protein",
+      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165427-292-292/POUCH-18KG-COOKIES.png?v=638205297471400000",
+      "weight": "907g",
+      "flavor": "Chocolate",
+      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+      "brand": "Integral Medica",
+      "price": "80"
+    },
+    {
+      "name": "Nutri Whey Protein",
+      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165429-0-0/POUCH-18KG-BAUNILHA.png?v=638205298135370000",
+      "weight": "907g",
+      "flavor": "Baunilha",
+      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+      "brand": "Integral Medica",
+      "price": "80"
+    },
+    {
+      "name": "Nutri Whey Protein",
+      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165428-0-0/POUCH-18KG-MORANGO.png?v=638205297799700000",
+      "weight": "907g",
+      "flavor": "Morango",
+      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+      "brand": "Integral Medica",
+      "price": "80"
+    },
+    {
+      "name": "100% Whey",
+      "imageURL": "https://divf32e1br5es.cloudfront.net/Custom/Content/Products/94/55/94550_100-whey-max-titanium-900g-chocolate-p134881_t1_638023934698596534.png",
+      "weight": "900g",
+      "flavor": "Chocolate",
+      "description": "Suplemento a base de proteína concentrada do soro do leite (whey protein concentrate), matéria-prima elaborada com alta tecnologia, de elevado valor biológico, rápida digestibilidade e alta concentração de aminoácidos essenciais, que são fatores de relevância para auxiliar a síntese proteica muscular. O consumo de suplementos proteicos, associado à uma alimentação saudável e prática de atividade física auxilia na formação de músculos e ossos. 100% whey fornece 20g de proteína, 4.597 mg de bcaas e 10,1g de aminoácidos essenciais em 30g de produto.",
+      "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
+      "brand": "Max Titanium",
+      "price": "130"
+    },
+    {
+      "name": "Super Whey",
+      "imageURL": "https://www.curitibasuplementos.com.br/uploads/product_file/THUsuper-whey-refil-900g.jpg",
+      "weight": "900g",
+      "flavor": "Chocolate",
+      "description": "Super Whey da Max Titanium é um suplemento alimentar, de carboidratos e proteínas, inovador pois fornece 30g de proteínas por porção. Super Whey possui fórmula eficaz para obtenção de máximo resultado em seus treinos. As proteínas do Super Whey Max Titanium auxiliam na formação de músculos e ossos, além disso, o produto conta com adição de carboidratos, que auxilia na recuperação da função muscular normal após exercícios extenuantes, além de possuir uma grande importância para a recuperação pós-treino, e ao mesmo tempo, potencializa ganho de massa magra.",
+      "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
+      "brand": "Max Titanium",
+      "price": "80"
+    },
+    {
+      "name": "Whey Protein Concentrado",
+      "imageURL": "https://m.media-amazon.com/images/I/71nEqTGQROL._AC_SY679_.jpg",
+      "weight": "1kg",
+      "flavor": "Morango",
+      "description": "O Whey Protein Concentrado atende desde atletas de ponta com alto rendimento até pessoas sedentárias em busca de saúde, produto feito exclusivamente com proteínas do soro do leite, possui altíssima concentração de aminoácidos essenciais o que confere excelente poder anabólico.",
+      "whenToTake": "O whey protein pode ser consumido com bebidas de sua preferência ou indicadas por um(a) nutricionista, que avalie os melhores horários da sua rotina e leve em consideração o seu objetivo, seja ele para hipertrofia ou emagrecimento.",
+      "brand": "Growth",
+      "price": "130"
+    },
+    {
+      "name": "Basic Whey Protein",
+      "imageURL": "https://m.media-amazon.com/images/I/41anB-09+EL._AC_.jpg",
+      "weight": "1kg",
+      "flavor": "Chocolate",
+      "description": "Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos. Basic Whey Protein é um produto que pode ser usado como alternativa nas refeições, no decorrer do dia como também na situação que sucede o treino.",
+      "whenToTake": "Sugerimos 30g do produto como porção, podendo ser diluído no líquido e quantidade de sua preferência. Podem ser consumidas quantas porções o indivíduo precisar ao dia. Isso dependerá da sua dieta e das suas refeições. O Basic pode ser ingerido sempre que faltar proteína via alimentos em uma refeição, podendo ser usado 1, 2, 3X ao dia; A quantidade a ser consumida irá depender da necessidade da sua dieta.",
+      "brand": "Growth",
+      "price": "60"
+    },
+    {
+      "name": "Whey Protein Turbo",
+      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158338-800-auto?v=638276372234730000",
+      "weight": "907g",
+      "flavor": "Baunilha",
+      "description": "Um suplemento que vai turbinar os seus músculos. Cada dose entrega 30g de proteína em conjunto a maltodextrina. O consumo de carboidratos, como a maltodextrina, em conjunto a proteínas, como o whey protein concentrado, atua na melhora da absorção das proteínas e no fornecimento de energia para o organismo.",
+      "whenToTake": "Misture 12 medida(s) culinária CSPes de sopa (120g) em 150 a 200ml de água, uma vez ao dia ou de acordo com a recomendação de um profissional. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+      "brand": "Black Skull",
+      "price": "56"
+    }
+  ]
+}
