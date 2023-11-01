@@ -1,6 +1,7 @@
 {
   "preWorkout": [
     {
+      "id": 1,
       "name": "Pré-Treino Horus",
       "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/156939-800-800?v=638289240637000000&width=800&height=800&aspect=true",
       "weight": "150g",
@@ -11,6 +12,7 @@
       "price": "70"
     },
     {
+      "id": 2,
       "name": "Pré-Treino B.O.P.E.",
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158572-800-auto?v=638284211288000000&width=800&height=auto&aspect=true",
       "weight": "150g",
@@ -21,6 +23,7 @@
       "price": "55"
     },
     {
+      "id": 3,
       "name": "Pré-Treino",
       "imageURL": "https://images.tcdn.com.br/img/img_prod/971829/nuclear_rush_100g_235_1_66a23fd58e75507a2b9f3321bc6670cb.jpg",
       "weight": "100g",
@@ -33,6 +36,7 @@
   ],
   "creatine": [
     {
+      "id": 4,
       "name": "Creatina Turbo",
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158474-800-auto?v=638283906216530000&width=800&height=auto&aspect=true",
       "weight": "300g",
@@ -43,6 +47,7 @@
       "price": "90"
     },
     {
+      "id": 5,
       "name": "Creatina Turbo",
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158470-800-auto?v=638283901057230000&width=800&height=auto&aspect=true",
       "weight": "150g",
@@ -53,6 +58,7 @@
       "price": "65"
     },
     {
+      "id": 6,
       "name": "Creatina Monohidratada",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/71/creatina-monohidratada-100g-growth-supplements.png",
       "weight": "100g",
@@ -65,6 +71,7 @@
   ],
   "protein": [
     {
+      "id": 7,
       "name": "Nutri Whey Protein",
       "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165427-292-292/POUCH-18KG-COOKIES.png?v=638205297471400000",
       "weight": "907g",
@@ -75,6 +82,7 @@
       "price": "80"
     },
     {
+      "id": 8,
       "name": "Nutri Whey Protein",
       "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165429-0-0/POUCH-18KG-BAUNILHA.png?v=638205298135370000",
       "weight": "907g",
@@ -85,6 +93,7 @@
       "price": "80"
     },
     {
+      "id": 9,
       "name": "Nutri Whey Protein",
       "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165428-0-0/POUCH-18KG-MORANGO.png?v=638205297799700000",
       "weight": "907g",
@@ -95,6 +104,7 @@
       "price": "80"
     },
     {
+      "id": 10,
       "name": "100% Whey",
       "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157247-800-800?v=638326568553700000&width=800&height=800&aspect=true",
       "weight": "900g",
@@ -105,6 +115,7 @@
       "price": "130"
     },
     {
+      "id": 11,
       "name": "Super Whey",
       "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/155548-800-800?v=637572070001570000&width=800&height=800&aspect=true",
       "weight": "900g",
@@ -115,6 +126,7 @@
       "price": "80"
     },
     {
+      "id": 12,
       "name": "Whey Protein Concentrado",
       "imageURL": "https://m.media-amazon.com/images/I/71nEqTGQROL._AC_SY679_.jpg",
       "weight": "1kg",
@@ -125,6 +137,7 @@
       "price": "130"
     },
     {
+      "id": 13,
       "name": "Basic Whey Protein",
       "imageURL": "https://m.media-amazon.com/images/I/41anB-09+EL._AC_.jpg",
       "weight": "1kg",
@@ -135,6 +148,7 @@
       "price": "60"
     },
     {
+      "id": 14,
       "name": "Whey Protein Turbo",
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158338-800-auto?v=638276372234730000",
       "weight": "907g",
@@ -147,6 +161,7 @@
   ],
   "others": [
     {
+      "id": 15,
       "name": "Thermo Flame",
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158606-800-auto?v=638284957889000000&width=800&height=auto&aspect=true",
       "weight": "120 caps",
@@ -157,6 +172,7 @@
       "price": "40"
     },
     {
+      "id": 16,
       "name": "Termogênico",
       "imageURL": "https://acdn.mitiendanube.com/stores/192/136/products/sekka_abdomen1-0e670a85607ff9f0b915126494354484-240-0.webp",
       "weight": "30 tabs",
@@ -167,6 +183,7 @@
       "price": "30"
     },
     {
+      "id": 17,
       "name": "Colágeno Hidrolisado",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/63/colageno-hidrolisado-150g-growth-supplements.png",
       "weight": "150g",
@@ -177,6 +194,7 @@
       "price": "33"
     },
     {
+      "id": 18,
       "name": "Colágeno Hidrolisado",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1458/colageno-hidrolisado-120caps-growth-supplements.png",
       "weight": "120 caps",
@@ -187,6 +205,7 @@
       "price": "35"
     },
     {
+      "id": 19,
       "name": "BCAA 2:1:1",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/16/bcaa-211-120-capsulas-growth.png",
       "weight": "120 caps",
@@ -197,6 +216,7 @@
       "price": "35"
     },
     {
+      "id": 20,
       "name": "Multivitamínico",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/107/produto-principal.png",
       "weight": "120 caps",
@@ -207,6 +227,7 @@
       "price": "47"
     },
     {
+      "id": 21,
       "name": "Óleo de coco spray",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1343/oleo-de-coco-spray.png",
       "weight": "120 ml",
@@ -217,6 +238,7 @@
       "price": "28"
     },
     {
+      "id": 22,
       "name": "Barra de proteínas",
       "imageURL": "https://down-br.img.susercontent.com/file/466c305efebb220bbdca8aeb91b215a5",
       "weight": "30g",
@@ -227,6 +249,7 @@
       "price": "4"
     },
     {
+      "id": 23,
       "name": "Creme de avelã",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/73/creme-de-avela-500g-growth-supplements.png",
       "weight": "500g",
@@ -239,6 +262,7 @@
   ],
   "accessories": [
     {
+      "id": 24,
       "name": "Galão d'água",
       "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1363/galao-2litros-growth-supplements-transparente-v3.png",
       "weight": "2L",
@@ -249,6 +273,7 @@
       "price": "30"
     },
     {
+      "id": 25,
       "name": "Coqueteleira",
       "imageURL": "https://www.gsuplementos.com.br/upload/produto/imagem/b_coqueteleira-simples-growth-supplements.png",
       "weight": "600ml",
