@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Products from "@/components/Products"
 
 export default function Home() {
   return (
@@ -8,9 +9,7 @@ export default function Home() {
       <section className="px-4 lg:px-6 xl:px-32  py-2" id="#">
         <p>inicio</p>
       </section>
-      <section className="px-4 lg:px-6 xl:px-32  py-2" id="Produtos">
-        <p>Produtos</p>
-      </section>
+      <Products/>
       <section className="px-4 lg:px-6 xl:px-32  py-2" id="Depoimentos">
         <p>Depoimentos</p>
       </section>
