@@ -11,7 +11,7 @@ export default function Header() {
   const sections = ["Início", "Produtos", "Depoimentos", "Contato"]
 
   return (
-    <header className="w-screen bg-white fixed">
+    <header className="w-screen bg-white fixed z-10">
       <div className="bg-secondary w-full h-8 flex px-4 lg:px-6 xl:px-32  justify-between items-center text-white">
         <div className="flex gap-3">
           <a className="flex gap-1" href="https://www.instagram.com/elite.dosuplemento/" target="_blank">
