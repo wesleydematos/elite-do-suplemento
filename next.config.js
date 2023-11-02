@@ -9,7 +9,9 @@ const nextConfig = {
             "integralmedica.vteximg.com.br",
             "m.media-amazon.com",
             "acdn.mitiendanube.com",
-            "down-br.img.susercontent.com"
+            "down-br.img.susercontent.com",
+            "a-static.mlcdn.com.br",
+            "d2r9epyceweg5n.cloudfront.net"
         ]
     }
 }
