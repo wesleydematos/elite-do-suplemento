@@ -7,16 +7,10 @@ export default function Products (){
       <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Proteínas</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {database.protein.map((item)=>{
-          const {id, name, imageURL, weight, flavor, brand, price} = item
           return (
             <Card 
-              key={id}
-              name={name}
-              imageURL={imageURL}
-              weight={weight}
-              flavor={flavor}
-              brand={brand}
-              price={price}
+              key={item.id}
+              item={item}
             />
           )
         })}
@@ -24,16 +18,10 @@ export default function Products (){
       <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Pré-Treinos</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {database.preWorkout.map((item)=>{
-          const {id, name, imageURL, weight, flavor, brand, price} = item
           return (
             <Card 
-              key={id}
-              name={name}
-              imageURL={imageURL}
-              weight={weight}
-              flavor={flavor}
-              brand={brand}
-              price={price}
+              key={item.id}
+              item={item}
             />
           )
         })}
@@ -41,16 +29,10 @@ export default function Products (){
       <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Creatinas</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {database.creatine.map((item)=>{
-          const {id, name, imageURL, weight, flavor, brand, price} = item
           return (
             <Card 
-              key={id}
-              name={name}
-              imageURL={imageURL}
-              weight={weight}
-              flavor={flavor}
-              brand={brand}
-              price={price}
+              key={item.id}
+              item={item}
             />
           )
         })}
@@ -58,20 +40,14 @@ export default function Products (){
       <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Outros</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {database.others.map((item)=>{
-          const {id, name, imageURL, weight, flavor, brand, price} = item
           return (
             <Card 
-              key={id}
-              name={name}
-              imageURL={imageURL}
-              weight={weight}
-              flavor={flavor}
-              brand={brand}
-              price={price}
+              key={item.id}
+              item={item}
             />
           )
         })}
-      </div>
+      </div> 
     </section>
 )
 }
