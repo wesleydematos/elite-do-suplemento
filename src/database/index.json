@@ -3,11 +3,11 @@
     {
       "id": 1,
       "name": "Pré-Treino Horus",
-      "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/156939-800-800?v=638289240637000000&width=800&height=800&aspect=true",
+      "imageURL": "https://m.media-amazon.com/images/I/51Bvy0TEkkL._AC_UF1000,1000_QL80_.jpg",
       "weight": "150g",
       "flavor": "Frutas Vemelhas",
-      "description": "O Horús foi o primeiro pré-treino brasileiro, lançado após a liberação da ANVISA para o uso de Beta Alanina pela indústria de suplementos. Ele contém ingredientes que irão potencializar o seu treino e melhorar sua performance! Para quem se exercita com intensidade, a fadiga é um dos principais fatores que influenciam o rendimento, por isso desenvolvemos o HÓRUS: com formulação altamente tecnológica e ingredientes de altíssima qualidade, para você ter um treino com muito mais eficiência.",
-      "whenToTake": "Hórus pode ser utilizado dentro de uma estratégia de planejamento nutricional com o intuito de auxiliar em foco, concentração e rendimento para a atividade física. De acordo com a ANVISA, a dosagem de 2 g de Beta Alanina deve ser consumida de forma fracionada a cada 2 horas. No entanto, é possível consumir a porção completa do Hórus no momento de pré-treino.",
+      "description": "O Horús contém ingredientes que irão potencializar o seu treino e melhorar sua performance! Para quem se exercita com intensidade, a fadiga é um dos principais fatores que influenciam o rendimento, por isso desenvolvemos o HÓRUS: com formulação altamente tecnológica e ingredientes de altíssima qualidade, para você ter um treino com muito mais eficiência.",
+      "whenToTake": "Pode ser utilizado dentro de uma estratégia de planejamento nutricional com o intuito de auxiliar em foco, concentração e rendimento para a atividade física. De acordo com a ANVISA, a dosagem de 2 g de Beta Alanina deve ser consumida de forma fracionada a cada 2 horas. No entanto, é possível consumir a porção completa do Hórus no momento de pré-treino.",
       "brand": "Max Titanium",
       "price": "70"
     },
@@ -17,7 +17,7 @@
       "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158572-800-auto?v=638284211288000000&width=800&height=auto&aspect=true",
       "weight": "150g",
       "flavor": "Frutas Vemelhas",
-      "description": "Esse é um pré-treino com cafeína, arginina, taurina, creatina e maltodextrina, utilizado pelo batalhão de operações policiais especiais para garantir mais energia, foco e concentração. Sua fórmula potente, além de dar mais disposição, contribui para o desenvolvimento muscular, oferecendo resultados esperados como um SOLDADO CAVEIRA!",
+      "description": "Pré-treino com cafeína, arginina, taurina, creatina e maltodextrina, utilizado pelo batalhão de operações policiais especiais para garantir mais energia, foco e concentração. Sua fórmula potente, além de dar mais disposição, contribui para o desenvolvimento muscular, oferecendo resultados esperados como um SOLDADO CAVEIRA!",
       "whenToTake": "Misture 1 Colher de chá ( aprox. 5g) de pré-treino BOPE™em 150ml de água e consuma uma vez ao dia ou conforme orientação de um profissional da saúde. Importante que seu consumo esteja associado a uma alimentação equilibrada e a prática de exercícios físicos. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
       "brand": "Black Skull",
       "price": "55"
@@ -142,7 +142,7 @@
       "imageURL": "https://m.media-amazon.com/images/I/41anB-09+EL._AC_.jpg",
       "weight": "1kg",
       "flavor": "Chocolate",
-      "description": "Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos. Basic Whey Protein é um produto que pode ser usado como alternativa nas refeições, no decorrer do dia como também na situação que sucede o treino.",
+      "description": "Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos.",
       "whenToTake": "Sugerimos 30g do produto como porção, podendo ser diluído no líquido e quantidade de sua preferência. Podem ser consumidas quantas porções o indivíduo precisar ao dia. Isso dependerá da sua dieta e das suas refeições. O Basic pode ser ingerido sempre que faltar proteína via alimentos em uma refeição, podendo ser usado 1, 2, 3X ao dia; A quantidade a ser consumida irá depender da necessidade da sua dieta.",
       "brand": "Growth",
       "price": "60"
@@ -266,7 +266,7 @@
       "weight": "2L",
       "flavor": "",
       "description": "Ajuda a controlar a sua ingestão de água diária e fornece praticidade para levar em qualquer lugar.",
-      "whenToTake": "Consulte as cores disponíveis via WhatsApp.",
+      "whenToTake": "Utilize para armazenar a água que irá lhe ajudar a se manter hidratado no dia-a-dia.",
       "brand": "Growth",
       "price": "30"
     },
@@ -277,7 +277,7 @@
       "weight": "600ml",
       "flavor": "",
       "description": "Ajuda a controlar a sua ingestão de água diária, auxilia na produção de shakes e fornece praticidade para levar em qualquer lugar.",
-      "whenToTake": "Consulte as cores disponíveis via WhatsApp.",
+      "whenToTake": "Uma coqueteleira é um utensílio usado para misturar ingredientes líquidos e, às vezes, sólidos para criar coquetéis.",
       "brand": "Growth",
       "price": "17"
     }
