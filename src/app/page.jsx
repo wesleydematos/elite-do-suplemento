@@ -1,6 +1,7 @@
 "use client"
 
 import Begin from "@/components/Begin"
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import ProductDetail from "@/components/ProductDetail"
 import Products from "@/components/Products"
@@ -19,9 +20,7 @@ export default function Home() {
         <section className="px-4 lg:px-6 xl:px-32  py-2" id="Depoimentos">
           <p>Depoimentos</p>
         </section>
-        <section className="px-4 lg:px-6 xl:px-32  py-2" id="Contato">
-          <p>contatos</p>
-        </section>
+        <Footer/>
       </div>
       {productDetails && <ProductDetail/>}
     </main>
