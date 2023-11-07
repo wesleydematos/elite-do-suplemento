@@ -8,7 +8,7 @@ import elite from "../../../public/elite.png"
 
 export default function Header() {
   const [actualSection, setActualSection] = useState("Início")
-  const sections = ["Início", "Produtos", "Depoimentos"]
+  const sections = ["Início", "Produtos", "Clientes"]
 
   return (
     <header className="w-screen bg-white fixed z-10">
