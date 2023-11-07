@@ -15,7 +15,7 @@ export default function Begin () {
             style={{backgroundImage: "url('https://beartac-imgs.s3.sa-east-1.amazonaws.com/uploads/formas-de-pagamento.jpg')"}}
             className="w-full h-full bg-no-repeat bg-cover bg-center"
           >
-            <p className="absolute bg-[#00000080] text-white w-full h-full flex items-center justify-center text-center md:text-2xl">Aceitamos PIX, Cartão e dinheiro.</p>  
+            <p className="absolute bg-[#00000080] text-white w-full h-full flex items-center justify-center text-center md:text-2xl">Aceitamos PIX, cartão e dinheiro.</p>  
           </div>
         </Carousel>
       </div>
