@@ -5,14 +5,17 @@ export default function Begin () {
     <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2" id="#">
       <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel>
-          <div className="flex h-full items-center justify-center bg-[#00000080] text-white">
-          Slide 1
+          <div 
+            style={{backgroundImage: "url('https://climba.com.br/blog/wp-content/uploads/2020/03/como-gerenciar-entrega-de-mercadoria-no-marketplace-climba-commerce.jpg')"}}
+            className="w-full h-full bg-no-repeat bg-cover bg-center"
+          >
+            <p className="absolute bg-[#00000080] text-white w-full h-full flex items-center justify-center text-center md:text-2xl">Entrega grátis para Machados-PE, demais cidades é necessário consultar valor.</p>  
           </div>
-          <div className="flex h-full items-center justify-center bg-[#00000080] text-white">
-          Slide 2
-          </div>
-          <div className="flex h-full items-center justify-center bg-[#00000080] text-white">
-          Slide 3
+          <div 
+            style={{backgroundImage: "url('https://beartac-imgs.s3.sa-east-1.amazonaws.com/uploads/formas-de-pagamento.jpg')"}}
+            className="w-full h-full bg-no-repeat bg-cover bg-center"
+          >
+            <p className="absolute bg-[#00000080] text-white w-full h-full flex items-center justify-center text-center md:text-2xl">Aceitamos PIX, Cartão e dinheiro.</p>  
           </div>
         </Carousel>
       </div>
