@@ -1,6 +1,8 @@
-import "@/styles/globals.css"
-import { Inter } from "next/font/google"
 import AuthProvider from "@/Providers/AuthProvider"
+import {ToastContainer} from "react-toastify"
+import {Inter} from "next/font/google"
+import "react-toastify/dist/ReactToastify.min.css"
+import "@/styles/globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -17,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body className={inter.className}>
         <AuthProvider>
+          <ToastContainer autoClose={2000} theme="dark" />
           {children}
         </AuthProvider>
       </body>
