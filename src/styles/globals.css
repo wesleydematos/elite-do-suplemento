@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+  --toastify-color-success: #ff561b;
+
   ::-webkit-scrollbar {
     width: 5px;
   }

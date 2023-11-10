@@ -27,7 +27,9 @@ export default function ProductDetail(){
 
     setTimeout(() => {
       setLoading(false)
-      toast.success("Item adicionado ao carrinho!")
+      toast.success("Item adicionado ao carrinho!", {
+        position: toast.POSITION.BOTTOM_RIGHT
+      })
     }, 1000);
   }
 
