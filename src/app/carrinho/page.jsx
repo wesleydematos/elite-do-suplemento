@@ -32,9 +32,17 @@ export default function Carrinho() {
           </a>
           {
             !!products ? 
-            <div className="mt-2">tem produto</div> 
+            <div className="mt-2">
+              <ul>
+                {products.map((product)=>{
+                  return (
+                    <li key={product.id}>{product.name}</li>
+                  )
+                })}
+              </ul>
+            </div> 
             : 
-            <div className="mt-5 flex flex-col self-center text-primary text-center gap-3">
+            <div className="mt-16 flex flex-col self-center text-primary text-center gap-3">
               <FaShoppingCart className="text-8xl w-[300px]"/>
               <p className="text-xl font-bold w-[300px]">SEU CARRINHO ESTÁ VAZIO</p>
             </div> 

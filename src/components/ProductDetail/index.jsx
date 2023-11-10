@@ -17,20 +17,25 @@ export default function ProductDetail(){
     setLoading(true)
 
     if(!products){
-      localStorage.setItem("productsCart", JSON.stringify([{...product}]))
+      localStorage.setItem("productsCart", JSON.stringify([{...product, quantity: 1}]))
     } else {
       const newProducts = JSON.parse(products)
-      newProducts.push({...product})
+     
+      const foundedProduct = newProducts.find((item)=> item.id === product.id)
+
+      if(foundedProduct){
+        foundedProduct.quantity += 1
+      } else {
+        newProducts.push({...product, quantity: 1})
+      }
 
       localStorage.setItem("productsCart", JSON.stringify(newProducts))
     }
 
     setTimeout(() => {
       setLoading(false)
-      toast.success("Item adicionado ao carrinho!", {
-        position: toast.POSITION.BOTTOM_RIGHT
-      })
-    }, 1000);
+      toast.success("Item adicionado ao carrinho!")
+    }, 500);
   }
 
   return (
