@@ -82,14 +82,16 @@ export default function Carrinho() {
                           <p className=" font-semibold">Quant:</p>
                           <div className="flex gap-1 self-center w-[52px] justify-between">
                             <button 
-                              className="text-[12px]"
+                              disabled={product.quantity === 10}
+                              className={`${product.quantity === 10 && "text-gray-400"} text-[12px] `}
                               onClick={() => changeQuantity(product.id, "increase")}
                             >
                               <FaUpLong/>
                             </button>
                             <span className="w-[18px] text-center">{product.quantity}</span>
                             <button 
-                              className="text-[12px]"
+                              disabled={product.quantity === 1}
+                              className={`${product.quantity === 1 && "text-gray-400"} text-[12px] `}
                               onClick={() => changeQuantity(product.id, "decrease")}
                             >
                               <FaDownLong/>
