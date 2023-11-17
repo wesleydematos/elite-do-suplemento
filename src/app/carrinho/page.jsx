@@ -11,9 +11,28 @@ export default function Carrinho() {
   const [products, setProducts] = useState([])
   //criar loading enquanto não recebo os dados do localstorage
   //aumentar e diminuir quantidade
+  //criar soma de total carrinho
+  //solicitar pedido
 
   function removeProduct(id){
     const newProducts = products.filter((item)=> item.id !== id)
+    setProducts(newProducts)
+    localStorage.setItem("productsCart", JSON.stringify(newProducts))
+  }
+
+  function changeQuantity(id, operation){
+    const newProducts = products.filter((item) => {
+      if(item.id === id){
+        if(operation === "increase"){
+          item.quantity != 10 ? item.quantity += 1 : item.quantity = 10
+        } else {
+          item.quantity != 1 ? item.quantity -= 1 : item.quantity = 1
+        }
+      }
+
+      return item
+    })
+
     setProducts(newProducts)
     localStorage.setItem("productsCart", JSON.stringify(newProducts))
   }
@@ -61,13 +80,23 @@ export default function Carrinho() {
                         </div>
                         <div className="flex flex-col">
                           <p className=" font-semibold">Quant:</p>
-                          <div className="flex gap-1 self-center">
-                            <button className="text-[12px]"><FaUpLong/></button>
-                            <span>{product.quantity}</span>
-                            <button className="text-[12px]"><FaDownLong/></button>
+                          <div className="flex gap-1 self-center w-[52px] justify-between">
+                            <button 
+                              className="text-[12px]"
+                              onClick={() => changeQuantity(product.id, "increase")}
+                            >
+                              <FaUpLong/>
+                            </button>
+                            <span className="w-[18px] text-center">{product.quantity}</span>
+                            <button 
+                              className="text-[12px]"
+                              onClick={() => changeQuantity(product.id, "decrease")}
+                            >
+                              <FaDownLong/>
+                            </button>
                           </div>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col w-[82px]">
                           <p className=" font-semibold">Total:</p>
                           <p>R${product.price * product.quantity},00</p>
                         </div>
