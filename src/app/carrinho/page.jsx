@@ -9,12 +9,19 @@ import { BiArrowBack } from "react-icons/bi"
 
 export default function Carrinho() {
   const [products, setProducts] = useState([])
-  const [productsChanged, setProductsChanged] = useState(false)
+  //criar loading enquanto não recebo os dados do localstorage
+  //aumentar e diminuir quantidade
+
+  function removeProduct(id){
+    const newProducts = products.filter((item)=> item.id !== id)
+    setProducts(newProducts)
+    localStorage.setItem("productsCart", JSON.stringify(newProducts))
+  }
 
   useEffect(()=>{
     const allProducts = localStorage.getItem("productsCart")
     setProducts(JSON.parse(allProducts))
-  }, [productsChanged])
+  }, [])
 
 
     return (
@@ -32,7 +39,7 @@ export default function Carrinho() {
             <BiArrowBack/> Continuar comprando
           </a>
           {
-            !!products ? 
+            !!products.length ? 
             <div className="mt-2 w-full">
               <ul className="my-4 flex flex-col gap-3 justify-center">
                 {products.map((product)=>{
@@ -67,6 +74,7 @@ export default function Carrinho() {
                       </div>
                       <button 
                         className="text-white mt-2 bg-accent rounded-md w-1/2 self-center hover:scale-95 md:w-[110px] lg:mr-1"
+                        onClick={() => removeProduct(product.id)}
                       >
                         Remover
                       </button>
