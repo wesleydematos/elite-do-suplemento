@@ -9,14 +9,20 @@ import { BiArrowBack } from "react-icons/bi"
 
 export default function Carrinho() {
   const [products, setProducts] = useState([])
-  //criar loading enquanto não recebo os dados do localstorage
-  //aumentar e diminuir quantidade
-  //criar soma de total carrinho
+  const [total, setTotal] = useState(0)
   //solicitar pedido
+  //adicionar botão de limpar carrinho
 
   function removeProduct(id){
     const newProducts = products.filter((item)=> item.id !== id)
+    const totalSum = newProducts.reduce((accumulator, currentProduct) => {
+      const productTotal = currentProduct.price * currentProduct.quantity
+
+      return accumulator + productTotal
+    }, 0)
+
     setProducts(newProducts)
+    setTotal(totalSum)
     localStorage.setItem("productsCart", JSON.stringify(newProducts))
   }
 
@@ -33,13 +39,27 @@ export default function Carrinho() {
       return item
     })
 
+    const totalSum = newProducts.reduce((accumulator, currentProduct) => {
+      const productTotal = currentProduct.price * currentProduct.quantity
+
+      return accumulator + productTotal
+    }, 0)
+
     setProducts(newProducts)
+    setTotal(totalSum)
     localStorage.setItem("productsCart", JSON.stringify(newProducts))
   }
 
   useEffect(()=>{
-    const allProducts = localStorage.getItem("productsCart")
-    setProducts(JSON.parse(allProducts))
+    const allProducts = JSON.parse(localStorage.getItem("productsCart"))
+    const totalSum = allProducts.reduce((accumulator, currentProduct) => {
+      const productTotal = currentProduct.price * currentProduct.quantity
+
+      return accumulator + productTotal
+    }, 0)
+
+    setProducts(allProducts)
+    setTotal(totalSum)
   }, [])
 
 
@@ -116,7 +136,7 @@ export default function Carrinho() {
               {
               products && 
                 <>
-                  <p className="text-xl font-bold my-2 text-primary">Total: R$200,00</p>
+                  <p className="text-xl font-bold my-2 text-primary">Total: R${total},00</p>
                   <a href="" className="rounded-md text-white bg-primary flex items-center gap-2 w-fit py-2 px-5">Solicitar pedido</a>
                 </>
               }
