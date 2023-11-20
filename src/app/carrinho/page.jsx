@@ -2,6 +2,8 @@
 
 import Image from "next/image"
 import logo from "../../../public/elite.png"
+import {fadeIn} from "@/styles/variants"
+import {motion} from "framer-motion"
 import {useEffect, useState} from "react"
 import {FaShoppingCart} from "react-icons/fa"
 import {FaUpLong, FaDownLong} from "react-icons/fa6"
@@ -122,7 +124,13 @@ export default function Carrinho() {
           loading ? 
           <div className="self-center mt-5 font-bold text-xl text-primary">Carregando...</div>
           :
-          <section className="flex flex-col items-start px-4 lg:px-6 xl:px-32 py-2 mt-2">
+          <motion.section 
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.6}}
+            className="flex flex-col items-start px-4 lg:px-6 xl:px-32 py-2 mt-2"
+          >
             <a href="/" className="p-2 rounded-md text-white bg-primary flex items-center gap-2">
               <BiArrowBack/> Continuar comprando
             </a>
@@ -202,7 +210,7 @@ export default function Carrinho() {
                 <p className="text-xl font-bold w-[300px]">SEU CARRINHO ESTÁ VAZIO</p>
               </div> 
             }
-          </section>
+          </motion.section>
         }
       </main>
     )
