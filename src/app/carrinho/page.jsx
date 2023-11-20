@@ -10,8 +10,7 @@ import { BiArrowBack } from "react-icons/bi"
 export default function Carrinho() {
   const [products, setProducts] = useState([])
   const [total, setTotal] = useState(0)
-  //solicitar pedido
-  //adicionar botão de limpar carrinho
+  const [redirectURL, setRedirectURL] = useState(false)
 
   function removeProduct(id){
     const newProducts = products.filter((item)=> item.id !== id)
@@ -24,6 +23,8 @@ export default function Carrinho() {
     setProducts(newProducts)
     setTotal(totalSum)
     localStorage.setItem("productsCart", JSON.stringify(newProducts))
+    const newURL = createUrl(newProducts)
+    setRedirectURL(newURL)
   }
 
   function changeQuantity(id, operation){
@@ -48,18 +49,58 @@ export default function Carrinho() {
     setProducts(newProducts)
     setTotal(totalSum)
     localStorage.setItem("productsCart", JSON.stringify(newProducts))
+    const newURL = createUrl(newProducts)
+    setRedirectURL(newURL)
+  }
+
+  function createUrl(products){
+    let text = "Olá, estou entrando em contato através do site para solicitar "
+
+    if(products.length == 1){
+      text += `(${products[0].quantity}) ${products[0].name} da ${products[0].brand} que totalizou R$${products[0].quantity * products[0].price},00.`
+    }
+
+    if(products.length > 1){
+      let totalPrice = 0
+      text  += ` os produtos `
+      products.forEach((item)=>{
+        text += `${item.name} da ${item.brand} (${item.quantity} de R$${item.price},00), `
+        totalPrice += item.price * item.quantity
+      })
+
+      text += `totalizando R$${totalPrice},00.`
+    }
+    
+    return `https://wa.me/+558188109971?text=${text}` 
   }
 
   useEffect(()=>{
     const allProducts = JSON.parse(localStorage.getItem("productsCart"))
     const totalSum = allProducts.reduce((accumulator, currentProduct) => {
       const productTotal = currentProduct.price * currentProduct.quantity
-
+      
       return accumulator + productTotal
     }, 0)
+    
+    let text = "Olá, estou entrando em contato através do site para solicitar "
 
+    if(allProducts.length > 1){
+      text  += ` os produtos `
+      allProducts.forEach((item)=>{
+        text += `${item.name} da ${item.brand} (${item.quantity} de R$${item.price},00), `
+      })
+
+      text += `totalizando R$${totalSum},00.`
+    }else{
+      text += `(${allProducts[0].quantity}) ${allProducts[0].name} da ${allProducts[0].brand} que totalizou R$${allProducts[0].quantity * allProducts[0].price},00.`
+    }
+    
+
+    const url = `https://wa.me/+558188109971?text=${text}`
+    
     setProducts(allProducts)
     setTotal(totalSum)
+    setRedirectURL(url)
   }, [])
 
 
@@ -137,7 +178,13 @@ export default function Carrinho() {
               products && 
                 <>
                   <p className="text-xl font-bold my-2 text-primary">Total: R${total},00</p>
-                  <a href="" className="rounded-md text-white bg-primary flex items-center gap-2 w-fit py-2 px-5">Solicitar pedido</a>
+                  <a 
+                    href={redirectURL} 
+                    target="_blank" 
+                    className={`rounded-md text-white bg-primary flex items-center gap-2 w-fit py-2 px-5 ${redirectURL ? "" : "cursor-not-allowed bg-slate-400  "}`}
+                  >
+                    Solicitar pedido
+                  </a>
                 </>
               }
             </div> 
