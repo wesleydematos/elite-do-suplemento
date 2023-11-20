@@ -1,7 +1,7 @@
 "use client"
 
 import Begin from "@/components/Begin"
-// import Customers from "@/components/Customers"
+import Customers from "@/components/Customers"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import ProductDetail from "@/components/ProductDetail"
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="h-[102px]"/>
         <Begin/>
         <Products/>
-        {/* <Customers/> */}
+        <Customers/>
         <div className="h-[30px]"/>
         <Footer/>
       </div>
