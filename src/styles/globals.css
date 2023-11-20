@@ -29,6 +29,7 @@
   -webkit-text-size-adjust: 100%;
 
   --toastify-color-success: #ff561b;
+  --toastify-color-dark: #010449;
 
   ::-webkit-scrollbar {
     width: 5px;
