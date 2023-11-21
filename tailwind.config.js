@@ -1,4 +1,6 @@
 /** @type {import("tailwindcss").Config} */
+import colors from "tailwindcss/colors"
+
 module.exports = {
   content: [
     "./node_modules/flowbite-react/**/*.js",
@@ -9,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        fuchsia: colors.fuchsia,
         primary: {DEFAULT: "#010449", hover: "#3d3e68","50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"},
         secondary: "#ff561b",
         accent: {
