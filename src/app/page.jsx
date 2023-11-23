@@ -6,10 +6,11 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import ProductDetail from "@/components/ProductDetail"
 import Products from "@/components/Products"
+import Story from "@/components/Story"
 import {useProductStore} from "@/store/zustand"
 
 export default function Home() {
-  const {productDetails} = useProductStore()
+  const {productDetails, story} = useProductStore()
 
   return (
     <main className="bg-body min-h-screen flex">
@@ -23,6 +24,7 @@ export default function Home() {
         <Footer/>
       </div>
       {productDetails && <ProductDetail/>}
+      {story && <Story/>}
     </main>
   )
 }
