@@ -4,8 +4,8 @@ import Stories from "react-insta-stories"
 import {useProductStore} from "@/store/zustand"
 
 export default function Story (){
-  const {changeStory, startIndex} = useProductStore()
-  const stories = ["https://i.imgur.com/DYderUJ.jpg", "https://i.imgur.com/x83cUYo.jpg", "https://i.imgur.com/uiCbG29.jpg"]
+  const {changeStory, startIndex, clients} = useProductStore()
+  const stories = clients.map((client)=> client.story)
 
   return (
     <div 

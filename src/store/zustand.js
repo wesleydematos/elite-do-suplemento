@@ -1,16 +1,10 @@
 import { create } from 'zustand'
-import bruno from "../../public/bruno.jpg"
-import brunoStory from "../../public/brunoStory.jpg"
-import neto from "../../public/neto.jpg"
-import netoStory from "../../public/netoStory.jpg"
-import rinaldo from "../../public/rinaldo.jpg"
-import rinaldoStory from "../../public/rinaldoStory.jpg"
 
 export const useProductStore = create((set) => ({
   clients: [
-    {id: 0, profilePic: bruno, story: brunoStory, name: "bruno"},
-    {id: 1, profilePic: neto, story: netoStory, name: "neto"},
-    {id: 2, profilePic: rinaldo, story: rinaldoStory, name: "rinaldo"}
+    {id: 0, profilePic: "https://i.imgur.com/IWbVFg7.jpg", story: "https://i.imgur.com/DYderUJ.jpg", name: "bruno"},
+    {id: 1, profilePic: "https://i.imgur.com/clVboQp.jpg", story: "https://i.imgur.com/x83cUYo.jpg", name: "neto"},
+    {id: 2, profilePic: "https://i.imgur.com/i0GDjBW.jpg", story: "https://i.imgur.com/uiCbG29.jpg", name: "rinaldo"}
   ],
   product: {},
   cart: 0,
