@@ -1,4 +1,40 @@
+import prisma from "../../../../lib/db"
+import {NextResponse} from "next/server"
+
 export async function GET(){
-    console.log("oi")
-    return Response.json({message: "OK"})
+  try {
+    const products = await prisma.product.findMany()
+
+    return Response.json(products)
+  } catch (error) {
+    return NextResponse.json({
+      message: "Error",
+      error
+    }, 
+    {
+      status: 500
+    })
+  }  
+} 
+
+export async function POST(req){
+  const body = await req.json()
+
+  try {
+    const product = await prisma.product.create({
+      data: {
+        ...body
+      }
+    })
+    
+    return Response.json(product)
+  } catch (error) {
+    return NextResponse.json({
+      message: "Error",
+      error
+    }, 
+    {
+      status: 500
+    })
+  }
 } 
