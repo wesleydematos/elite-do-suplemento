@@ -5,7 +5,7 @@ import {MdPix, MdCreditCard, MdMonetizationOn} from "react-icons/md"
 
 export default function Footer (){
   return (
-    <footer className=" bg-primary text-white" id="Contato">
+    <footer className="w-screen bg-primary text-white" id="Contato">
       <div className="px-4 lg:px-6 xl:px-32 py-2 flex flex-col">
         <div className="flex items-center gap-2 self-center mb-2">
           <Image src={elite} width={50} height={50} alt="Elite suplementos logo" />
