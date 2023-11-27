@@ -38,3 +38,25 @@ export async function POST(req){
     })
   }
 } 
+
+export async function DELETE(req){
+  try {
+    const { id } = await req.json()
+    await prisma.product.delete({
+      where: {
+        id
+      }
+    })
+
+    return NextResponse.json({message: "Produto deletado com sucesso!"})
+  } catch (error) {
+    console.log(error)
+    return NextResponse.json({
+      message: "Error",
+      error
+    }, 
+    {
+      status: 500
+    })
+  }
+}
