@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 
 export const useProductStore = create((set) => ({
+  allProducts: [],
   clients: [
     {id: 0, profilePic: "https://i.imgur.com/IWbVFg7.jpg", story: "https://i.imgur.com/DYderUJ.jpg", name: "bruno"},
     {id: 1, profilePic: "https://i.imgur.com/clVboQp.jpg", story: "https://i.imgur.com/x83cUYo.jpg", name: "neto"},
@@ -11,6 +12,7 @@ export const useProductStore = create((set) => ({
   startIndex: 0,
   productDetails: false,
   story: false,
+  setAllProducts: (item) => set(() => ({ allProducts: item })),
   setProduct: (item) => set(() => ({ product: item })),
   setStartIndex: (item) => set(() => ({ startIndex: item })),
   changeProductDetails: () => set((state) => ({ productDetails: !state.productDetails })),
