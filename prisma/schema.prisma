@@ -20,4 +20,5 @@ model Product{
   whenToTake String 
   brand String 
   price String 
+  type String
 }
