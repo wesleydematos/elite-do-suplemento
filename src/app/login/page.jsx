@@ -1,10 +1,10 @@
 "use client"
 
-import { signIn, signOut, useSession } from "next-auth/react"
+import {signIn, signOut, useSession} from "next-auth/react"
 import Head from "next/head"
 import Image from "next/image"
-import Link from "next/link"
 import elite from "../../../public/elite.png"
+import BlueButton from "@/components/BlueButton"
 
 export default function Login() {
   const { data: session } = useSession()
@@ -34,15 +34,29 @@ export default function Login() {
           </h2>
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          {session && session.user.email === "wesleydematos3@gmail.com" && <Link href="/secret/adm" className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2">Ir para o painel</Link>}
-          {session && session.user.email !== "wesleydematos3@gmail.com" && <p className="text-secondary text-center">Você não possui permissão para acessar o painel.</p>}
-          <Link 
+          {
+            session && session.user.email === "wesleydematos3@gmail.com" 
+            && <BlueButton 
+              href="/secret/adm" 
+              variant="large"
+              type="redirect"
+            >
+              Ir para o painel
+            </BlueButton>
+          }
+          {
+            session && session.user.email !== "wesleydematos3@gmail.com" 
+            && <p className="text-secondary text-center">Você não possui permissão para acessar o painel.</p>
+          }
+          <BlueButton 
             href="/" 
-            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2">
+            type="redirect"
+            variant="large"
+          >
             Voltar para Home
-          </Link>
-          <button
-            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2"
+          </BlueButton>
+          <BlueButton
+            variant="large"
             onClick={() =>{ session ? signOut() : signIn("google")}}
           >
             { 
@@ -53,7 +67,7 @@ export default function Login() {
                 Entrar com o Google
               </> 
             }
-          </button>
+          </BlueButton>
         </div>
       </div>
     </main>

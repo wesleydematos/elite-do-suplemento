@@ -8,6 +8,7 @@ import {useEffect, useState} from "react"
 import {FaShoppingCart} from "react-icons/fa"
 import {FaUpLong, FaDownLong} from "react-icons/fa6"
 import {BiArrowBack} from "react-icons/bi"
+import BlueButton from "@/components/BlueButton"
 
 export default function Carrinho() {
   const [products, setProducts] = useState([])
@@ -131,9 +132,9 @@ export default function Carrinho() {
             viewport={{once: false, amount: 0.6}}
             className="flex flex-col items-start px-4 lg:px-6 xl:px-32 py-2 mt-2"
           >
-            <a href="/" className="p-2 rounded-md text-white bg-primary flex items-center gap-2">
+            <BlueButton href="/" type="redirect">
               <BiArrowBack/> Continuar comprando
-            </a>
+            </BlueButton>
             {
               !!products.length ? 
               <div className="mt-2 w-full">
@@ -194,13 +195,13 @@ export default function Carrinho() {
                 products && 
                   <>
                     <p className="text-xl font-bold my-2 text-primary">Total: R${total},00</p>
-                    <a 
+                    <BlueButton 
                       href={redirectURL} 
                       target="_blank" 
-                      className={`rounded-md text-white bg-primary flex items-center gap-2 w-fit py-2 px-5 ${redirectURL ? "" : "cursor-not-allowed bg-slate-400  "}`}
+                      type="redirect"
                     >
                       Solicitar pedido
-                    </a>
+                    </BlueButton>
                   </>
                 }
               </div> 
