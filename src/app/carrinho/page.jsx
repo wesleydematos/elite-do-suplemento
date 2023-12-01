@@ -132,7 +132,7 @@ export default function Carrinho() {
             viewport={{once: false, amount: 0.6}}
             className="flex flex-col items-start px-4 lg:px-6 xl:px-32 py-2 mt-2"
           >
-            <BlueButton href="/" type="redirect">
+            <BlueButton href="/" tagType="redirect">
               <BiArrowBack/> Continuar comprando
             </BlueButton>
             {
@@ -198,7 +198,7 @@ export default function Carrinho() {
                     <BlueButton 
                       href={redirectURL} 
                       target="_blank" 
-                      type="redirect"
+                      tagType="redirect"
                     >
                       Solicitar pedido
                     </BlueButton>

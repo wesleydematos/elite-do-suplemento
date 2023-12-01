@@ -1,5 +1,5 @@
-export default function BlueButton ({children, type, variant, ...props}){
-  if(type === "redirect"){
+export default function BlueButton ({children, tagType, variant, ...props}){
+  if(tagType === "redirect"){
     return (
       <a
         className={`p-2 ${variant ? "w-full flex justify-center" : "w-fit"} rounded-md text-white bg-primary flex items-center gap-2 

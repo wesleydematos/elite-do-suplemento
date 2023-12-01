@@ -8,9 +8,10 @@ import {redirect} from "next/navigation"
 import {useProductStore} from "@/store/zustand"
 import Image from "next/image"
 import axios from "axios"
+import ProductForm from "@/components/ProductForm"
 
 export default function Secret() {
-  const [create, setCreate] = useState(false)
+  const [create, setCreate] = useState(true)
   const {allProducts, setAllProducts} = useProductStore()
   
   async function getData(){
@@ -32,7 +33,7 @@ export default function Secret() {
       return (
         <main className="bg-body min-h-screen">
           <p>Você não tem permissão para acessar esta página.</p>
-          <BlueButton type="redirect" href="/login">Voltar para o Login</BlueButton>
+          <BlueButton tagType="redirect" href="/login">Voltar para o Login</BlueButton>
         </main>
       )
     }
@@ -54,14 +55,14 @@ export default function Secret() {
         </header>
 
         <div className="flex gap-4 px-4 lg:px-6 xl:px-32 py-2 mt-2">
-          <BlueButton onClick={()=>setCreate(false)}>Produtos</BlueButton>
           <BlueButton onClick={()=>setCreate(true)}>Adicionar produto</BlueButton>
+          <BlueButton onClick={()=>setCreate(false)}>Produtos</BlueButton>
         </div>
         
         {
           create ? 
           <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">
-            criando
+            <ProductForm/>
           </section> 
           : 
           <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">

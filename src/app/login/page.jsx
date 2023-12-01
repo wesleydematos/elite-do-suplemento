@@ -39,7 +39,7 @@ export default function Login() {
             && <BlueButton 
               href="/secret/adm" 
               variant="large"
-              type="redirect"
+              tagType="redirect"
             >
               Ir para o painel
             </BlueButton>
@@ -50,7 +50,7 @@ export default function Login() {
           }
           <BlueButton 
             href="/" 
-            type="redirect"
+            tagType="redirect"
             variant="large"
           >
             Voltar para Home
