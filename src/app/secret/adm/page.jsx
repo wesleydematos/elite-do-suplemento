@@ -9,10 +9,11 @@ import {useProductStore} from "@/store/zustand"
 import Image from "next/image"
 import axios from "axios"
 import ProductForm from "@/components/ProductForm"
+import ProductsAdm from "@/components/ProductsAdm"
 
 export default function Secret() {
   const [create, setCreate] = useState(true)
-  const {allProducts, setAllProducts} = useProductStore()
+  const {setAllProducts} = useProductStore()
   
   async function getData(){
     const {data} = await axios.get("/api/product")
@@ -22,8 +23,6 @@ export default function Secret() {
   useEffect(()=>{
     getData()
   },[])
-
-  console.log(allProducts)
 
   const { data: session } = useSession({required: true, onUnauthenticated(){
     redirect("/login?callbackUrl=/secret/adm")
@@ -59,16 +58,14 @@ export default function Secret() {
           <BlueButton onClick={()=>setCreate(false)}>Produtos</BlueButton>
         </div>
         
-        {
-          create ? 
-          <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">
-            <ProductForm/>
-          </section> 
-          : 
-          <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">
-            listando
-          </section>
-        }
+        <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">
+          {
+            create ?
+              <ProductForm/>
+            :
+              <ProductsAdm/>
+          }
+        </section>
       </main>
     )
   }
