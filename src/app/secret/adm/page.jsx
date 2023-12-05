@@ -10,10 +10,12 @@ import Image from "next/image"
 import axios from "axios"
 import ProductForm from "@/components/ProductForm"
 import ProductsAdm from "@/components/ProductsAdm"
+import EditProduct from "@/components/EditProduct"
+import DeleteProduct from "@/components/DeleteProduct"
 
 export default function Secret() {
   const [create, setCreate] = useState(true)
-  const {setAllProducts} = useProductStore()
+  const {setAllProducts, edit, exclude} = useProductStore()
   
   async function getData(){
     const {data} = await axios.get("/api/product")
@@ -66,6 +68,8 @@ export default function Secret() {
               <ProductsAdm/>
           }
         </section>
+        {edit && <EditProduct/>}
+        {exclude && <DeleteProduct/>}
       </main>
     )
   }

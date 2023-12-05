@@ -12,6 +12,9 @@ export const useProductStore = create((set) => ({
   startIndex: 0,
   productDetails: false,
   story: false,
+  exclude: false,
+  edit: false,
+  productId: 0,
   setAllProducts: (item) => set(() => ({ allProducts: item })),
   setProduct: (item) => set(() => ({ product: item })),
   setStartIndex: (item) => set(() => ({ startIndex: item })),
@@ -20,4 +23,7 @@ export const useProductStore = create((set) => ({
   add: () => set((state) => ({ cart: state.cart + 1 })),
   remove: () => set((state) => ({ cart: state.cart - 1 })),
   removeAll: () => set({ cart: 0 }),
+  setExclude: (item) => set(() => ({ exclude: item })),
+  setEdit: (item) => set(() => ({ edit: item })),
+  setProductId: (item) => set(() => ({ productId: item }))
 }))
