@@ -1,16 +1,26 @@
+"use client"
+
 import BlueButton from "../BlueButton"
 import {productSchema} from "@/schemas/productSchema"
 import axios from "axios"
 import {useForm} from "react-hook-form"
 import {yupResolver} from "@hookform/resolvers/yup"
 import {toast} from "react-toastify"
+import {useProductStore} from "@/store/zustand"
 
-export default function ProductForm(){
+export default function ProductForm({handleType}){
+  const {product, setAllProducts, setEdit} = useProductStore()
+
   const {
     register,
     handleSubmit,
     formState: {errors},
   } = useForm({resolver: yupResolver(productSchema)})
+
+  async function getData(){
+    const {data} = await axios.get("/api/product")
+    setAllProducts(data)
+  }
 
   async function handleCreate(data) {
     try {
@@ -22,105 +32,113 @@ export default function ProductForm(){
     } 
   }
 
+  async function handleEdit(data) {
+    try {
+      await axios.patch("/api/product", {...data, id: product.id})
+      toast.success("Produto editado com sucesso!")
+      getData()
+      setEdit(false)
+    } catch (error) {
+      console.log(error)
+      toast.error("Erro ao editar produto!")
+    } 
+  }
+
+  const handleFunc = handleType == "create" ? handleCreate : handleEdit
+
   return (
     <>
-      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Adicionar novo produto:</h2>
-      <form onSubmit={handleSubmit(handleCreate)}>
+      <h2 className="font-bold text-base my-2 border-b-2 border-secondary w-fit">
+        {handleType == "create" ? "Adiconando produto:" : "Editando " + product.name + " " + product.brand}
+      </h2>
+      <form onSubmit={handleSubmit(handleFunc)}>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="name">Nome</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="name">Nome</label>
           <input 
+            defaultValue={product.name || ""}
             {...register("name")}
             errors={errors.name}
             type="text" 
-            placeholder="Whey Protein" 
+            placeholder="ex: Whey Protein" 
+            className="h-[35px]"
             id="name"
           />
           {errors.name && <span className="text-secondary">{errors.name.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="imageURL">URL da imagem</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="imageURL">URL da imagem</label>
           <input 
+            defaultValue={product.imageURL || ""}
             {...register("imageURL")}
             errors={errors.imageURL}
             type="text" 
-            placeholder="https://..." 
+            placeholder="ex: https://..." 
+            className="h-[35px]"
             id="imageURL"
           />
           {errors.imageURL && <span className="text-secondary">{errors.imageURL.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="weight">Peso/Medida</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="weight">Peso/Medida</label>
           <input 
+            defaultValue={product.weight || ""}
             {...register("weight")}
             errors={errors.weight}
             type="text" 
-            placeholder="150g" 
+            placeholder="ex: 150g" 
+            className="h-[35px]"
             id="weight"
           />
           {errors.weight && <span className="text-secondary">{errors.weight.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="flavor">Sabor</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="flavor">Sabor</label>
           <input 
+            defaultValue={product.flavor || ""}
             {...register("flavor")}
             errors={errors.flavor}
             type="text"
-            placeholder="Frutas vermelhas" 
+            placeholder="ex: Frutas vermelhas" 
+            className="h-[35px]"
             id="flavor"
           />
           {errors.flavor && <span className="text-secondary">{errors.flavor.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="description">Descrição</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="description">Descrição</label>
           <input 
+            defaultValue={product.description || ""}
             {...register("description")}
             errors={errors.description}
             type="text" 
-            placeholder="O produto contém..." 
+            placeholder="ex: O produto contém..." 
+            className="h-[35px]"
             id="description"
           />
           {errors.description && <span className="text-secondary">{errors.description.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="whenToTake">Quando utilizar</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="whenToTake">Quando utilizar</label>
           <input 
+            defaultValue={product.whenToTake || ""}
             {...register("whenToTake")}
             errors={errors.whenToTake}
             type="text" 
-            placeholder="O produto deve ser utilizado..." 
+            placeholder="ex: O produto deve ser utilizado..." 
+            className="h-[35px]"
             id="whenToTake"
           />
           {errors.whenToTake && <span className="text-secondary">{errors.whenToTake.message}</span>}
         </div>
         <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="brand">Marca</label>
-          <input 
-            {...register("brand")}
-            errors={errors.brand}
-            type="text" 
-            placeholder="Growth" 
-            id="brand"
-          />
-          {errors.brand && <span className="text-secondary">{errors.brand.message}</span>}
-        </div>
-        <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="price">Preço</label>
-          <input 
-            {...register("price")}
-            errors={errors.price}
-            type="text" 
-            placeholder="150" 
-            id="price"
-          />
-          {errors.price && <span className="text-secondary">{errors.price.message}</span>}
-        </div>
-        <div className="flex flex-col mb-2">
-          <label className="font-medium text-primary" htmlFor="type">Tipo</label>
+          <label className="font-medium text-primary text-[14px]" htmlFor="type">Tipo</label>
           <select 
+            defaultValue={product.type || ""}
             {...register("type")}
             errors={errors.type}
             name="type" 
             id="type" 
+            className="h-[35px]"
           >
             <option value="preWorkout">Pré-treino</option>
             <option value="protein">Proteína</option>
@@ -129,8 +147,35 @@ export default function ProductForm(){
           </select>
           {errors.type && <span className="text-secondary">{errors.type.message}</span>}
         </div>
+        <div className="flex flex-col mb-2">
+          <label className="font-medium text-primary text-[14px]" htmlFor="brand">Marca</label>
+          <input 
+            defaultValue={product.brand || ""}
+            {...register("brand")}
+            errors={errors.brand}
+            type="text" 
+            placeholder="ex: Growth" 
+            className="h-[35px]"
+            id="brand"
+          />
+          {errors.brand && <span className="text-secondary">{errors.brand.message}</span>}
+        </div>
+        <div className="flex flex-col mb-2">
+          <label className="font-medium text-primary text-[14px]" htmlFor="price">Preço</label>
+          <input 
+            defaultValue={product.price || ""}
+            {...register("price")}
+            errors={errors.price}
+            type="text" 
+            placeholder="ex: 150" 
+            className="h-[35px]"
+            id="price"
+          />
+          {errors.price && <span className="text-secondary">{errors.price.message}</span>}
+        </div>
+        
         <div className="my-2">
-          <BlueButton type="submit">Adicionar</BlueButton>
+          <BlueButton type="submit">{handleType == "create" ? "Adicionar" : "Editar"}</BlueButton>
         </div>
       </form>
     </>

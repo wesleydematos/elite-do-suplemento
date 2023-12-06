@@ -1,10 +1,28 @@
 "use client"
 
 import {useProductStore} from "@/store/zustand"
+import axios from "axios"
 import Image from "next/image"
+import { useEffect } from "react"
 
 export default function ProductsAdm (){
-  const {allProducts, setExclude, setEdit, setProductId} = useProductStore()
+  const {allProducts, setAllProducts, setExclude, setEdit, setProduct} = useProductStore()
+
+  async function getData(){
+    const {data} = await axios.get("/api/product")
+    setAllProducts(data)
+  }
+  
+  useEffect(()=>{
+    getData()
+  },[])
+
+  const allTypes = {
+    others: "Outros",
+    preWorkout: "Pré-treino",
+    protein: "Proteína",
+    creatine: "Creatina"
+  }
 
   return(
     <section>
@@ -26,17 +44,18 @@ export default function ProductsAdm (){
                     className="mix-blend-multiply self-center mb-2"
                   />
                   <p className="self-center font-semibold md:w-[130px] md:text-center lg:w-[300px] lg:text-start">{`${product.name} ${product.brand}`}</p>
+                  <p className="self-center font-semibold md:w-[130px] md:text-center lg:w-[300px] lg:text-start">{`${allTypes[product.type]}`}</p>
                   <p className="self-center font-semibold mb-2 md:w-[100px] lg:w-[200px] md:text-center lg:text-start">{`${product.weight} ${!!product.flavor ?  "- " + product.flavor  : ""}`}</p>
-                  <div className="flex flex-col self-center gap-2">
+                  <div className="flex flex-col self-center gap-2 mr-2">
                     <button 
                       className="bg-primary rounded text-white px-2"
-                      onClick={()=>{setProductId(product.id); setEdit(true)}}
+                      onClick={()=>{setProduct(product); setEdit(true)}}
                     >
                       Editar
                     </button>
                     <button 
                       className="bg-accent rounded text-white px-2"
-                      onClick={()=>{setProductId(product.id); setExclude(true)}}
+                      onClick={()=>{setProduct(product); setExclude(true)}}
                     >
                       Excluir
                     </button>

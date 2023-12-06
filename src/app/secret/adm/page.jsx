@@ -63,7 +63,7 @@ export default function Secret() {
         <section className="px-4 lg:px-6 xl:px-32 py-2 mt-2">
           {
             create ?
-              <ProductForm/>
+              <ProductForm handleType="create"/>
             :
               <ProductsAdm/>
           }
