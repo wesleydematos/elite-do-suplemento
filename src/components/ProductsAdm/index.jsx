@@ -1,9 +1,10 @@
 "use client"
 
+import Image from "next/image"
+import {useEffect} from "react"
+import Loading from "../Loading"
 import {useProductStore} from "@/store/zustand"
 import axios from "axios"
-import Image from "next/image"
-import { useEffect } from "react"
 
 export default function ProductsAdm (){
   const {allProducts, setAllProducts, setExclude, setEdit, setProduct} = useProductStore()
@@ -66,7 +67,10 @@ export default function ProductsAdm (){
           }
         </ul>
         :
-        <p className="self-center mt-5 font-bold text-xl text-primary">Carregando produtos...</p>
+        <div className="self-center mt-5">
+          <h2 className="font-bold text-2xl text-center text-primary">Carregando produtos...</h2>
+          <Loading/>
+        </div>
       }
     </section>
   )

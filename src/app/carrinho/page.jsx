@@ -2,13 +2,14 @@
 
 import Image from "next/image"
 import logo from "../../../public/elite.png"
+import BlueButton from "@/components/BlueButton"
+import Loading from "@/components/Loading"
 import {fadeIn} from "@/styles/variants"
 import {motion} from "framer-motion"
 import {useEffect, useState} from "react"
 import {FaShoppingCart} from "react-icons/fa"
 import {FaUpLong, FaDownLong} from "react-icons/fa6"
 import {BiArrowBack} from "react-icons/bi"
-import BlueButton from "@/components/BlueButton"
 
 export default function Carrinho() {
   const [products, setProducts] = useState([])
@@ -123,7 +124,10 @@ export default function Carrinho() {
         </header>
         {
           loading ? 
-          <div className="self-center mt-5 font-bold text-xl text-primary">Carregando...</div>
+          <div className="self-center mt-5">
+            <h2 className="font-bold text-2xl text-primary">Carregando carrinho...</h2>
+            <Loading/>
+          </div>
           :
           <motion.section 
             variants={fadeIn("right", 0.2)}
