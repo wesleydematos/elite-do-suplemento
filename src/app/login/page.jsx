@@ -8,6 +8,7 @@ import BlueButton from "@/components/BlueButton"
 
 export default function Login() {
   const { data: session } = useSession()
+  const allowedEmails = ["eliellsouzza@gmail.com", "wesleydematos3@gmail.com"]
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-body py-12 px-4 sm:px-6 lg:px-8">
@@ -35,7 +36,7 @@ export default function Login() {
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           {
-            session && session.user.email === "wesleydematos3@gmail.com" 
+            session && allowedEmails.includes(session.user.email)
             && <BlueButton 
               href="/secret/adm" 
               variant="large"
@@ -45,7 +46,7 @@ export default function Login() {
             </BlueButton>
           }
           {
-            session && session.user.email !== "wesleydematos3@gmail.com" 
+            session && !allowedEmails.includes(session.user.email) 
             && <p className="text-secondary text-center">Você não possui permissão para acessar o painel.</p>
           }
           <BlueButton 
