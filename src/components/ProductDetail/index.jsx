@@ -54,14 +54,14 @@ export default function ProductDetail(){
           />
         </div>
         <p className="font-bold text-center md:text-xl text-secondary">{`${name} ${brand} ${weight}`}</p>
-        <p className="text-sm text-center mb-2 md:mb-4 md:text-xl font-medium">{` ${!!flavor ? flavor + " - " : ""} R$${price},00`}</p>
-        <p className="text-[12px] text-justify mb-2 md:mb-4 md:text-xl"><span className="font-bold text-secondary">Descrição: </span> {description}</p>
-        <p className="text-[12px] text-justify md:text-xl"><span className="font-bold text-secondary">Como Usar: </span>{whenToTake}</p>
+        <p className="text-sm text-center mb-2 md:mb-4 md:text-xl font-medium text-primary">{` ${!!flavor ? flavor + " - " : ""} R$${price},00`}</p>
+        <p className="text-[12px] text-justify mb-2 md:mb-4 md:text-xl text-primary"><span className="font-bold text-secondary">Descrição: </span> {description}</p>
+        <p className="text-[12px] text-justify md:text-xl text-primary"><span className="font-bold text-secondary">Como Usar: </span>{whenToTake}</p>
         {
           loading ? 
           <Button color="gray" className={`${buttonStyle}`}>
             <Spinner aria-label="Alternate spinner button example" size="sm" />
-            <span className="pl-3">Adicionando...</span>
+            <span className="pl-3 text-primary">Adicionando...</span>
           </Button>
           : 
           <button 

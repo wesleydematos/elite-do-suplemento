@@ -48,7 +48,7 @@ export default function ProductForm({handleType}){
 
   return (
     <>
-      <h2 className="font-bold text-base my-2 border-b-2 border-secondary w-fit">
+      <h2 className="font-bold text-base my-2 border-b-2 border-secondary w-fit text-primary">
         {handleType == "create" ? "Adiconando produto:" : "Editando " + product.name + " " + product.brand}
       </h2>
       <form onSubmit={handleSubmit(handleFunc)}>
@@ -60,7 +60,7 @@ export default function ProductForm({handleType}){
             errors={errors.name}
             type="text" 
             placeholder="ex: Whey Protein" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="name"
           />
           {errors.name && <span className="text-secondary">{errors.name.message}</span>}
@@ -73,7 +73,7 @@ export default function ProductForm({handleType}){
             errors={errors.imageURL}
             type="text" 
             placeholder="ex: https://..." 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="imageURL"
           />
           {errors.imageURL && <span className="text-secondary">{errors.imageURL.message}</span>}
@@ -86,7 +86,7 @@ export default function ProductForm({handleType}){
             errors={errors.weight}
             type="text" 
             placeholder="ex: 150g" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="weight"
           />
           {errors.weight && <span className="text-secondary">{errors.weight.message}</span>}
@@ -99,7 +99,7 @@ export default function ProductForm({handleType}){
             errors={errors.flavor}
             type="text"
             placeholder="ex: Frutas vermelhas" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="flavor"
           />
           {errors.flavor && <span className="text-secondary">{errors.flavor.message}</span>}
@@ -112,7 +112,7 @@ export default function ProductForm({handleType}){
             errors={errors.description}
             type="text" 
             placeholder="ex: O produto contém..." 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="description"
           />
           {errors.description && <span className="text-secondary">{errors.description.message}</span>}
@@ -125,7 +125,7 @@ export default function ProductForm({handleType}){
             errors={errors.whenToTake}
             type="text" 
             placeholder="ex: O produto deve ser utilizado..." 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="whenToTake"
           />
           {errors.whenToTake && <span className="text-secondary">{errors.whenToTake.message}</span>}
@@ -138,7 +138,7 @@ export default function ProductForm({handleType}){
             errors={errors.type}
             name="type" 
             id="type" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
           >
             <option value="preWorkout">Pré-treino</option>
             <option value="protein">Proteína</option>
@@ -155,7 +155,7 @@ export default function ProductForm({handleType}){
             errors={errors.brand}
             type="text" 
             placeholder="ex: Growth" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="brand"
           />
           {errors.brand && <span className="text-secondary">{errors.brand.message}</span>}
@@ -168,7 +168,7 @@ export default function ProductForm({handleType}){
             errors={errors.price}
             type="text" 
             placeholder="ex: 150" 
-            className="h-[35px]"
+            className="h-[35px] text-black"
             id="price"
           />
           {errors.price && <span className="text-secondary">{errors.price.message}</span>}

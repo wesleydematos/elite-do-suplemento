@@ -35,7 +35,7 @@ export default function ProductsAdm (){
               return (
                 <li 
                   key={product.id}
-                  className="flex flex-col md:flex-row w-full bg-white rounded-xl p-2 shadow-lg md:gap-[0.15rem] md:justify-between"
+                  className="flex flex-col md:flex-row w-full bg-white rounded-xl p-2 shadow-lg md:gap-[0.15rem] md:justify-between text-black"
                 >
                   <Image 
                     width={100} 

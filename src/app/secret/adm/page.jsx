@@ -16,6 +16,7 @@ import axios from "axios"
 export default function Secret() {
   const [create, setCreate] = useState(true)
   const {setAllProducts, edit, exclude} = useProductStore()
+  const allowedEmails = ["eliellsouzza06@gmail.com", "wesleydematos3@gmail.com"]
   
   async function getData(){
     const {data} = await axios.get("/api/product")
@@ -30,9 +31,9 @@ export default function Secret() {
     redirect("/login?callbackUrl=/secret/adm")
   }})
 
-  if(!session || session.user.email !== "wesleydematos3@gmail.com"){
+  if(!session || !allowedEmails.includes(session.user.email)){
     return (
-      <main className="bg-body min-h-screen">
+      <main className="bg-body min-h-screen text-primary">
         <p>Você não tem permissão para acessar esta página.</p>
         <BlueButton tagType="redirect" href="/login">Voltar para o Login</BlueButton>
       </main>

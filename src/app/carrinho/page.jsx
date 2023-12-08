@@ -80,34 +80,41 @@ export default function Carrinho() {
   }
 
   useEffect(()=>{
-    const allProducts = JSON.parse(localStorage.getItem("productsCart"))
-    const totalSum = allProducts.reduce((accumulator, currentProduct) => {
-      const productTotal = currentProduct.price * currentProduct.quantity
-      
-      return accumulator + productTotal
-    }, 0)
-    
-    let text = "Olá, estou entrando em contato através do site para solicitar "
+    const cartProducts = localStorage.getItem("productsCart")
 
-    if(allProducts.length == 1){
-      text += `(${allProducts[0].quantity}) ${allProducts[0].name} da ${allProducts[0].brand} que totalizou R$${allProducts[0].quantity * allProducts[0].price},00.`
+    if(cartProducts){
+      const allProducts = JSON.parse(cartProducts)
+
+      const totalSum = allProducts.reduce((accumulator, currentProduct) => {
+        const productTotal = currentProduct.price * currentProduct.quantity
+        
+        return accumulator + productTotal
+      }, 0)
+
+
+      let text = "Olá, estou entrando em contato através do site para solicitar "
+  
+      if(allProducts.length == 1){
+        text += `(${allProducts[0].quantity}) ${allProducts[0].name} da ${allProducts[0].brand} que totalizou R$${allProducts[0].quantity * allProducts[0].price},00.`
+      }
+  
+      if(allProducts.length > 1){
+        text  += ` os produtos `
+        allProducts.forEach((item)=>{
+          text += `${item.name} da ${item.brand} (${item.quantity} de R$${item.price},00), `
+        })
+  
+        text += `totalizando R$${totalSum},00.`
+      }
+
+      const url = `https://wa.me/+558188109971?text=${text}`
+
+
+      setProducts(allProducts)
+      setTotal(totalSum)
+      setRedirectURL(url)
     }
-
-    if(allProducts.length > 1){
-      text  += ` os produtos `
-      allProducts.forEach((item)=>{
-        text += `${item.name} da ${item.brand} (${item.quantity} de R$${item.price},00), `
-      })
-
-      text += `totalizando R$${totalSum},00.`
-    }
     
-
-    const url = `https://wa.me/+558188109971?text=${text}`
-    
-    setProducts(allProducts)
-    setTotal(totalSum)
-    setRedirectURL(url)
     setLoading(false)
   }, [])
 
@@ -145,7 +152,7 @@ export default function Carrinho() {
                 <ul className="my-4 flex flex-col gap-3 justify-center">
                   {products.map((product)=>{
                     return (
-                      <li key={product.id} className="flex flex-col md:flex-row w-full bg-white rounded-xl p-2 shadow-lg md:gap-[0.15rem] md:justify-between">
+                      <li key={product.id} className="flex flex-col md:flex-row w-full bg-white rounded-xl p-2 shadow-lg md:gap-[0.15rem] md:justify-between text-black">
                         <Image 
                           width={100} 
                           height={100} 

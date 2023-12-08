@@ -36,7 +36,7 @@ export default function DeleteProduct(){
         X
       </button>
       <div className="flex flex-col self-center">
-        <p className="font-bold text-xl text-center">
+        <p className="font-bold text-xl text-center text-primary">
           Tem certeza que deseja excluir o produto {`${product.name} ${product.brand} - ${product.weight}?`}
         </p>
         <div className="flex self-center gap-2 mt-3">

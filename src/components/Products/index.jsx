@@ -13,7 +13,7 @@ export default function Products (){
 
   return (
     <section className="flex flex-col px-4 lg:px-6 xl:px-32 py-2" id="Produtos">
-      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Proteínas</h2>
+      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit text-primary">Proteínas</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {proteins.map((item)=>{
           return (
@@ -24,7 +24,7 @@ export default function Products (){
           )
         })}
       </div>
-      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Pré-Treinos</h2>
+      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit text-primary">Pré-Treinos</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {preWorkouts.map((item)=>{
           return (
@@ -35,7 +35,7 @@ export default function Products (){
           )
         })}
       </div>
-      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Creatinas</h2>
+      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit text-primary">Creatinas</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {creatines.map((item)=>{
           return (
@@ -46,7 +46,7 @@ export default function Products (){
           )
         })}
       </div>
-      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit">Outros</h2>
+      <h2 className="font-bold text-xl my-3 border-b-2 border-secondary w-fit text-primary">Outros</h2>
       <div className="flex flex-wrap w-full justify-center gap-8">
         {others.map((item)=>{
           return (

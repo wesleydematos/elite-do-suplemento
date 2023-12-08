@@ -17,6 +17,7 @@ export const productSchema = yup.object().shape({
 
     const allowedDomains = [
       "www.gsuplementos.com.br",
+      "gsuplementos.com.br",
       "lojamaxtitanium.vtexassets.com",
       "blackskullusa.vtexassets.com",
       "images.tcdn.com.br",
