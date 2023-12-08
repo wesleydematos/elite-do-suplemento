@@ -16,7 +16,7 @@ import axios from "axios"
 export default function Secret() {
   const [create, setCreate] = useState(true)
   const {setAllProducts, edit, exclude} = useProductStore()
-  const allowedEmails = ["eliellsouzza06@gmail.com", "wesleydematos3@gmail.com"]
+  const allowedEmails = ["eliellsouzza@gmail.com", "wesleydematos3@gmail.com"]
   
   async function getData(){
     const {data} = await axios.get("/api/product")
