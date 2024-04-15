@@ -1,285 +1,293 @@
-{
-  "preWorkout": [
-    {
-      "id": 1,
-      "name": "Pré-Treino Horus",
-      "imageURL": "https://m.media-amazon.com/images/I/51Bvy0TEkkL._AC_UF1000,1000_QL80_.jpg",
-      "weight": "150g",
-      "flavor": "Frutas Vemelhas",
-      "description": "O Horús contém ingredientes que irão potencializar o seu treino e melhorar sua performance! Para quem se exercita com intensidade, a fadiga é um dos principais fatores que influenciam o rendimento, por isso desenvolvemos o HÓRUS: com formulação altamente tecnológica e ingredientes de altíssima qualidade, para você ter um treino com muito mais eficiência.",
-      "whenToTake": "Pode ser utilizado dentro de uma estratégia de planejamento nutricional com o intuito de auxiliar em foco, concentração e rendimento para a atividade física. De acordo com a ANVISA, a dosagem de 2 g de Beta Alanina deve ser consumida de forma fracionada a cada 2 horas. No entanto, é possível consumir a porção completa do Hórus no momento de pré-treino.",
-      "brand": "Max Titanium",
-      "price": "70"
-    },
-    {
-      "id": 2,
-      "name": "Pré-Treino B.O.P.E.",
-      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158572-800-auto?v=638284211288000000&width=800&height=auto&aspect=true",
-      "weight": "150g",
-      "flavor": "Frutas Vemelhas",
-      "description": "Pré-treino com cafeína, arginina, taurina, creatina e maltodextrina, utilizado pelo batalhão de operações policiais especiais para garantir mais energia, foco e concentração. Sua fórmula potente, além de dar mais disposição, contribui para o desenvolvimento muscular, oferecendo resultados esperados como um SOLDADO CAVEIRA!",
-      "whenToTake": "Misture 1 Colher de chá ( aprox. 5g) de pré-treino BOPE™em 150ml de água e consuma uma vez ao dia ou conforme orientação de um profissional da saúde. Importante que seu consumo esteja associado a uma alimentação equilibrada e a prática de exercícios físicos. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
-      "brand": "Black Skull",
-      "price": "55"
-    },
-    {
-      "id": 3,
-      "name": "Pré-Treino",
-      "imageURL": "https://images.tcdn.com.br/img/img_prod/971829/nuclear_rush_100g_235_1_66a23fd58e75507a2b9f3321bc6670cb.jpg",
-      "weight": "100g",
-      "flavor": "Guaraná",
-      "description": "Nuclear Rush® é o mais novo pré-treino com uma ampla combinação de substâncias que vão propiciar notavelmente uma explosiva melhora da performance. Seus efeitos geram o aumento de força, foco, vasodilatação, postergação da fadiga muscular, anti-oxidação e liberação de endorfina. SEUS TREINOS NÃO SERÃO OS MESMOS.",
-      "whenToTake": "Misturar 1 scoop cheio (2,5g) em 75 ml (meio copo) de água ou bebida da sua preferência.",
-      "brand": "Nuclear Rush",
-      "price": "55"
-    }
-  ],
-  "creatine": [
-    {
-      "id": 4,
-      "name": "Creatina Turbo",
-      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158474-800-auto?v=638283906216530000&width=800&height=auto&aspect=true",
-      "weight": "300g",
-      "flavor": "",
-      "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
-      "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
-      "brand": "Black Skull",
-      "price": "90"
-    },
-    {
-      "id": 5,
-      "name": "Creatina Turbo",
-      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158470-800-auto?v=638283901057230000&width=800&height=auto&aspect=true",
-      "weight": "150g",
-      "flavor": "",
-      "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
-      "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
-      "brand": "Black Skull",
-      "price": "65"
-    },
-    {
-      "id": 6,
-      "name": "Creatina Monohidratada",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/71/creatina-monohidratada-100g-growth-supplements.png",
-      "weight": "100g",
-      "flavor": "",
-      "description": " O foco da sua aplicação na dieta é o ganho de massa muscular, garantindo a energia que seu músculo precisa para crescer cada vez mais. Entre os seus benefícios, a creatina aumenta a capacidade do músculo de gerar força. Ajuda diretamente na hipertrofia muscular, aumenta sua capacidade de treino, previne o catabolismo e influência na transcrição gênica.",
-      "whenToTake": "O suplemento Creatina pode ser ingerido em qualquer momento do dia, dependendo da estratégia adotada. Por isso, não há uma só maneira de saber como tomar creatina. Ela pode ser consumida tanto com água quanto na mistura em shakes do pós ou pré-treino. Um detalhe importante é que ela deve ser consumida todos os dias, mesmo nos dias em que você não treina. Dessa forma, é possível evidenciar todos os seus benefícios na rotina. Ela também é insulinodependente, por isso, é preciso consumir junto com alimentos ou suplementos que influenciam a produção de insulina. Entre eles, a dextrose, maltodextrina, arroz, pão, macarrão e proteínas como Whey Protein, por exemplo.",
-      "brand": "Growth",
-      "price": "65"
-    }
-  ],
-  "protein": [
-    {
-      "id": 7,
-      "name": "Nutri Whey Protein",
-      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165427-292-292/POUCH-18KG-COOKIES.png?v=638205297471400000",
-      "weight": "907g",
-      "flavor": "Chocolate",
-      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
-      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
-      "brand": "Integral Medica",
-      "price": "80"
-    },
-    {
-      "id": 8,
-      "name": "Nutri Whey Protein",
-      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165429-0-0/POUCH-18KG-BAUNILHA.png?v=638205298135370000",
-      "weight": "907g",
-      "flavor": "Baunilha",
-      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
-      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
-      "brand": "Integral Medica",
-      "price": "80"
-    },
-    {
-      "id": 9,
-      "name": "Nutri Whey Protein",
-      "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165428-0-0/POUCH-18KG-MORANGO.png?v=638205297799700000",
-      "weight": "907g",
-      "flavor": "Morango",
-      "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
-      "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
-      "brand": "Integral Medica",
-      "price": "80"
-    },
-    {
-      "id": 10,
-      "name": "100% Whey",
-      "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157247-800-800?v=638326568553700000&width=800&height=800&aspect=true",
-      "weight": "900g",
-      "flavor": "Chocolate",
-      "description": "Suplemento a base de proteína concentrada do soro do leite (whey protein concentrate), matéria-prima elaborada com alta tecnologia, de elevado valor biológico, rápida digestibilidade e alta concentração de aminoácidos essenciais, que são fatores de relevância para auxiliar a síntese proteica muscular. O consumo de suplementos proteicos, associado à uma alimentação saudável e prática de atividade física auxilia na formação de músculos e ossos. 100% whey fornece 20g de proteína, 4.597 mg de bcaas e 10,1g de aminoácidos essenciais em 30g de produto.",
-      "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
-      "brand": "Max Titanium",
-      "price": "130"
-    },
-    {
-      "id": 11,
-      "name": "Super Whey",
-      "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/155548-800-800?v=637572070001570000&width=800&height=800&aspect=true",
-      "weight": "900g",
-      "flavor": "Chocolate",
-      "description": "Super Whey da Max Titanium é um suplemento alimentar, de carboidratos e proteínas, inovador pois fornece 30g de proteínas por porção. Super Whey possui fórmula eficaz para obtenção de máximo resultado em seus treinos. As proteínas do Super Whey Max Titanium auxiliam na formação de músculos e ossos, além disso, o produto conta com adição de carboidratos, que auxilia na recuperação da função muscular normal após exercícios extenuantes, além de possuir uma grande importância para a recuperação pós-treino, e ao mesmo tempo, potencializa ganho de massa magra.",
-      "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
-      "brand": "Max Titanium",
-      "price": "80"
-    },
-    {
-      "id": 12,
-      "name": "Whey Protein Concentrado",
-      "imageURL": "https://m.media-amazon.com/images/I/71nEqTGQROL._AC_SY679_.jpg",
-      "weight": "1kg",
-      "flavor": "Morango",
-      "description": "O Whey Protein Concentrado atende desde atletas de ponta com alto rendimento até pessoas sedentárias em busca de saúde, produto feito exclusivamente com proteínas do soro do leite, possui altíssima concentração de aminoácidos essenciais o que confere excelente poder anabólico.",
-      "whenToTake": "O whey protein pode ser consumido com bebidas de sua preferência ou indicadas por um(a) nutricionista, que avalie os melhores horários da sua rotina e leve em consideração o seu objetivo, seja ele para hipertrofia ou emagrecimento.",
-      "brand": "Growth",
-      "price": "130"
-    },
-    {
-      "id": 13,
-      "name": "Basic Whey Protein",
-      "imageURL": "https://m.media-amazon.com/images/I/41anB-09+EL._AC_.jpg",
-      "weight": "1kg",
-      "flavor": "Chocolate",
-      "description": "Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos.",
-      "whenToTake": "Sugerimos 30g do produto como porção, podendo ser diluído no líquido e quantidade de sua preferência. Podem ser consumidas quantas porções o indivíduo precisar ao dia. Isso dependerá da sua dieta e das suas refeições. O Basic pode ser ingerido sempre que faltar proteína via alimentos em uma refeição, podendo ser usado 1, 2, 3X ao dia; A quantidade a ser consumida irá depender da necessidade da sua dieta.",
-      "brand": "Growth",
-      "price": "60"
-    },
-    {
-      "id": 14,
-      "name": "Whey Protein Turbo",
-      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158338-800-auto?v=638276372234730000",
-      "weight": "907g",
-      "flavor": "Baunilha",
-      "description": "Um suplemento que vai turbinar os seus músculos. Cada dose entrega 30g de proteína em conjunto a maltodextrina. O consumo de carboidratos, como a maltodextrina, em conjunto a proteínas, como o whey protein concentrado, atua na melhora da absorção das proteínas e no fornecimento de energia para o organismo.",
-      "whenToTake": "Misture 12 medida(s) culinária CSPes de sopa (120g) em 150 a 200ml de água, uma vez ao dia ou de acordo com a recomendação de um profissional. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
-      "brand": "Black Skull",
-      "price": "56"
-    }
-  ],
-  "others": [
-    {
-      "id": 15,
-      "name": "Thermo Flame",
-      "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158606-800-auto?v=638284957889000000&width=800&height=auto&aspect=true",
-      "weight": "120caps",
-      "flavor": "",
-      "description": "Um potente termogênico para ajudar naquele shape rasgado e na repetição a mais que você precisa no treino caveira. Energia, Força e Foco são alguns dos Benefícios da cafeína pura, importante parceiro de treinos sérios e com resultados reais.Ingredientes: Cafeína, Estabilizante Cellulose Microcristalina e Polivinilpirrolidona, Antiumectante Dioxido de Silício e Estearato de Magnésio.",
-      "whenToTake": "Consumir 1 tablete uma vez ao dia. Atletas: 1 tablete, duas vezes ao dia, uma hora antes do treinoou conforme orientação de um profissional da saúde. Importante que seu consumo esteja associado a uma alimentação equilibrada e a prática de exercícios físicos. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
-      "brand": "Black Skull",
-      "price": "40"
-    },
-    {
-      "id": 16,
-      "name": "Termogênico",
-      "imageURL": "https://acdn.mitiendanube.com/stores/192/136/products/sekka_abdomen1-0e670a85607ff9f0b915126494354484-240-0.webp",
-      "weight": "30tabs",
-      "flavor": "",
-      "description": "Quem quer queimar gordura deve conhecer agora o Sekka Abdomen: Um dos mais modernos e poderosos termogênicos do mercado, o Sekka Abdomen Red Series é composto por 420mg de cafeína + Laranja Amarga + Chá verde, que juntos, intensificam a queima de gordura, acelerando o metabolismo.",
-      "whenToTake": "Tomar 1 tablete ao dia.",
-      "brand": "Sekka Abdômen",
-      "price": "30"
-    },
-    {
-      "id": 17,
-      "name": "Colágeno Hidrolisado",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/63/colageno-hidrolisado-150g-growth-supplements.png",
-      "weight": "150g",
-      "flavor": "Laranja",
-      "description": "O colágeno hidrolisado é uma proteína importante para o nosso organismo. Ele representa incríveis 30% de todas as proteínas presentes em nosso corpo - mais do que isso, desempenha funções primordiais para o bem-estar da nossa saúde.",
-      "whenToTake": "A dosagem indicada é de 5g ao dia, porém essa quantidade não pode ser considerada eficiente para todas as pessoas. Cada indivíduo pode ter necessidades nutricionais diferentes, por este motivo sugerimos que consulte um nutricionista para receber a indicação de uso correta.",
-      "brand": "Growth",
-      "price": "33"
-    },
-    {
-      "id": 18,
-      "name": "Colágeno Hidrolisado",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1458/colageno-hidrolisado-120caps-growth-supplements.png",
-      "weight": "120caps",
-      "flavor": "",
-      "description": "O colágeno hidrolisado em cápsula é um suplemento muito eficaz para auxiliar na reparação, cuidados e aparência da pele. Além disso, ajuda o corpo a repor esta proteína, porque mesmo o organismo a produzindo de forma natural, com o passar da idade, essa produção começa a diminuir, provocando alguns efeitos na pele como o ressecamento e o aparecimento de rugas e linhas de expressão. O uso constante do colágeno hidrolisado contribui para amenizar esses efeitos e atribui outros benefícios que promovem a saúde e o bom funcionamento da pele.",
-      "whenToTake": "Antes de consumir o colágeno hidrolisado, o ideal é consultar um nutricionista que irá fazer uma avaliação e um planejamento nutricional dentro dos seus hábitos alimentares, inserindo o colágeno conforme suas deficiências, idade e objetivos.",
-      "brand": "Growth",
-      "price": "35"
-    },
-    {
-      "id": 19,
-      "name": "BCAA 2:1:1",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/16/bcaa-211-120-capsulas-growth.png",
-      "weight": "120caps",
-      "flavor": "",
-      "description": "O suplemento BCAA, constituído pelos aminoácidos Leucina, Valina e Isoleucina, podem te ajudar a conquistar resultados ainda maiores através de uma rotina de treino e dieta adequados. Esses três nutrientes são importantíssimos para a síntese de proteína e o consequente ganho de massa muscular (hipertrofia). Eles auxiliam tanto no processo de recuperação quanto no fornecimento de energia usada durante o treino.",
-      "whenToTake": "O BCAA em cápsula pode ser ingerido junto com seu shake ou isoladamente, de preferência antes ou depois do treino para garantir seus benefícios. Para entender melhor como tomar BCAA, consulte sempre seu nutricionista.",
-      "brand": "Growth",
-      "price": "35"
-    },
-    {
-      "id": 20,
-      "name": "Multivitamínico",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/107/produto-principal.png",
-      "weight": "120caps",
-      "flavor": "",
-      "description": "O multivitamínico é um suplemento importantíssimo, isso porque ele pode ser usado como fonte de nutrientes indispensáveis ao organismo humano. Esse produto contribui com a dieta daquelas pessoas que não podem ou não conseguem se alimentar adequadamente.",
-      "whenToTake": "De acordo com a avaliação do nutricionista, o multivitamínico pode ser indicado para deficiências na dieta e, assim, ser consumido sempre. Já quando o consumo estiver baseado no aumento da necessidade do organismo em razão de atividades físicas, o consumo está, também, condicionado à duração do programa de treinos e sua intensidade.",
-      "brand": "Growth",
-      "price": "47"
-    },
-    {
-      "id": 21,
-      "name": "Óleo de coco spray",
-      "imageURL": "https://a-static.mlcdn.com.br/800x560/oleo-de-coco-spray-growth-100ml-dieta-equilibrada-saudavel-growth-supplements/olistplus/opmgplom2wclzv59/06be1bb9bfa255ef706fb492073779c7.jpeg",
-      "weight": "120ml",
-      "flavor": "Coco",
-      "description": "O óleo de coco spray é um alimento funcional saudável e saboroso, que facilita o preparo de pratos doces e salgados, sendo uma excelente opção para variar as receitas no dia a dia. A sua composição nutricional é rica especialmente em ácidos graxos saturados, como láurico, mirístico e palmítico, além de pequenas quantidades de insaturados.",
-      "whenToTake": "De maneira prática e rápida, o spray óleo de coco pode ser consumido em diversos alimentos do dia a dia. Basta borrifar no recipiente do preparo, como panelas, assadeiras, chapas, etc., e adicionar os ingredientes. As receitas podem ser as mais variadas, como carnes, tortas, bolos, legumes e panquecas.",
-      "brand": "Growth",
-      "price": "28"
-    },
-    {
-      "id": 22,
-      "name": "Barra de proteínas",
-      "imageURL": "https://down-br.img.susercontent.com/file/466c305efebb220bbdca8aeb91b215a5",
-      "weight": "30g",
-      "flavor": "Chocolate",
-      "description": "Embora existam muitas fontes de proteína na alimentação, suprir as necessidades de consumo diário apenas com a dieta pode ser uma tarefa bastante difícil, principalmente pra quem tem uma rotina corrida e paladar exigente, para isso, as barras protéicas são uma deliciosa oportunidade.",
-      "whenToTake": "Consuma como complementod de alimentação em dias em que por algum motivo você não pode fazer um lanche no meio da manhã/tarde, ou numa refeição incompleta pela ausência de proteínas.",
-      "brand": "Growth",
-      "price": "4"
-    },
-    {
-      "id": 23,
-      "name": "Creme de avelã",
-      "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/73/creme-de-avela-500g-growth-supplements.png",
-      "weight": "500g",
-      "flavor": "Avelã",
-      "description": "O creme de avelã deve ser considerado uma fonte de gordura na dieta, a proposta da Growth Supplments é oferecer um alimento saboroso, para ser usado como substituição aos doces tradicionais. A estratégia é substituir a grande quantidade de açúcar (sacarose) presente nos doces por uma fonte de gordura, assim podemos ter maior controle glicêmico e insulinêmico da dieta.",
-      "whenToTake": "O creme de avelã Growth pode ser consumido de colher ou adicionado à sua receita favorita. É uma excelente opção para quem precisa controlar a glicemia e ingestão de carboidratos.",
-      "brand": "Growth",
-      "price": "45"
-    },
-    {
-      "id": 24,
-      "name": "Galão d'água",
-      "imageURL": "https://d2r9epyceweg5n.cloudfront.net/stores/002/642/853/products/51-7623d92f791bfd9fc216732777212525-1024-1024.png",
-      "weight": "2L",
-      "flavor": "",
-      "description": "Ajuda a controlar a sua ingestão de água diária e fornece praticidade para levar em qualquer lugar.",
-      "whenToTake": "Utilize para armazenar a água que irá lhe ajudar a se manter hidratado no dia-a-dia.",
-      "brand": "Growth",
-      "price": "30"
-    },
-    {
-      "id": 25,
-      "name": "Coqueteleira",
-      "imageURL": "https://www.gsuplementos.com.br/upload/produto/imagem/b_coqueteleira-simples-growth-supplements.png",
-      "weight": "600ml",
-      "flavor": "",
-      "description": "Ajuda a controlar a sua ingestão de água diária, auxilia na produção de shakes e fornece praticidade para levar em qualquer lugar.",
-      "whenToTake": "Uma coqueteleira é um utensílio usado para misturar ingredientes líquidos e, às vezes, sólidos para criar coquetéis.",
-      "brand": "Growth",
-      "price": "17"
-    }
-  ]
-}
+[
+  {
+    "preWorkout": [
+      {
+        "id": 1,
+        "name": "Pré-Treino Horus",
+        "imageURL": "https://m.media-amazon.com/images/I/51Bvy0TEkkL._AC_UF1000,1000_QL80_.jpg",
+        "weight": "150g",
+        "flavor": "Frutas Vemelhas",
+        "description": "O Horús contém ingredientes que irão potencializar o seu treino e melhorar sua performance! Para quem se exercita com intensidade, a fadiga é um dos principais fatores que influenciam o rendimento, por isso desenvolvemos o HÓRUS: com formulação altamente tecnológica e ingredientes de altíssima qualidade, para você ter um treino com muito mais eficiência.",
+        "whenToTake": "Pode ser utilizado dentro de uma estratégia de planejamento nutricional com o intuito de auxiliar em foco, concentração e rendimento para a atividade física. De acordo com a ANVISA, a dosagem de 2 g de Beta Alanina deve ser consumida de forma fracionada a cada 2 horas. No entanto, é possível consumir a porção completa do Hórus no momento de pré-treino.",
+        "brand": "Max Titanium",
+        "price": "70"
+      },
+      {
+        "id": 2,
+        "name": "Pré-Treino B.O.P.E.",
+        "imageURL": "https://suasaudedistribuidora.com.br/cdn/shop/products/1_032ec17f-d51f-4f99-89f8-ea33c08a69c8.png?v=1615579865",
+        "weight": "150g",
+        "flavor": "Frutas Vemelhas",
+        "description": "Pré-treino com cafeína, arginina, taurina, creatina e maltodextrina, utilizado pelo batalhão de operações policiais especiais para garantir mais energia, foco e concentração. Sua fórmula potente, além de dar mais disposição, contribui para o desenvolvimento muscular, oferecendo resultados esperados como um SOLDADO CAVEIRA!",
+        "whenToTake": "Misture 1 Colher de chá ( aprox. 5g) de pré-treino BOPE™em 150ml de água e consuma uma vez ao dia ou conforme orientação de um profissional da saúde. Importante que seu consumo esteja associado a uma alimentação equilibrada e a prática de exercícios físicos. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+        "brand": "Black Skull",
+        "price": "55"
+      },
+      {
+        "id": 3,
+        "name": "Pré-Treino",
+        "imageURL": "https://images.tcdn.com.br/img/img_prod/971829/nuclear_rush_100g_235_1_66a23fd58e75507a2b9f3321bc6670cb.jpg",
+        "weight": "100g",
+        "flavor": "Guaraná",
+        "description": "Nuclear Rush® é o mais novo pré-treino com uma ampla combinação de substâncias que vão propiciar notavelmente uma explosiva melhora da performance. Seus efeitos geram o aumento de força, foco, vasodilatação, postergação da fadiga muscular, anti-oxidação e liberação de endorfina. SEUS TREINOS NÃO SERÃO OS MESMOS.",
+        "whenToTake": "Misturar 1 scoop cheio (2,5g) em 75 ml (meio copo) de água ou bebida da sua preferência.",
+        "brand": "Nuclear Rush",
+        "price": "55"
+      }
+    ]
+  },
+  {
+    "creatine": [
+      {
+        "id": 4,
+        "name": "Creatina Turbo",
+        "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158480/creatine-_300g.jpg?v=638283916486070000",
+        "weight": "300g",
+        "flavor": "",
+        "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
+        "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+        "brand": "Black Skull",
+        "price": "90"
+      },
+      {
+        "id": 5,
+        "name": "Creatina Turbo",
+        "imageURL": "https://static.netshoes.com.br/produtos/creatina-turbo-150gr-black-skull/89/G54-0767-289/G54-0767-289_zoom1.jpg?ts=1678882848&ims=544x",
+        "weight": "150g",
+        "flavor": "",
+        "description": "A creatina monohidratada é um dos ativos mais estudados pela ciência nos últimos anos. Além dos benefícios conhecidos para o esporte, seu consumo apresentou efeitos anti-inflamatórios melhorando a saúde de forma geral e a melhoria da performance cerebral, diminuindo a demanda cerebral por oxigênio. Cada dose possui apenas 12 calorias e entrega 3 g da substância por dose. É energia pura e, consequentemente, apoio para seu processo de ganho de massa!",
+        "whenToTake": "Adicionar 1¼ colher de chá (6g) do  Creatine Turbo  em 150ml de água e consumir uma vez ao dia ou conforme recomendação de um profissional da saúde. Importante que seu consumo esteja aliado a uma alimentação balanceada e a prática de exercício físico. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+        "brand": "Black Skull",
+        "price": "65"
+      },
+      {
+        "id": 6,
+        "name": "Creatina Monohidratada",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/71/creatina-monohidratada-100g-growth-supplements.png",
+        "weight": "100g",
+        "flavor": "",
+        "description": " O foco da sua aplicação na dieta é o ganho de massa muscular, garantindo a energia que seu músculo precisa para crescer cada vez mais. Entre os seus benefícios, a creatina aumenta a capacidade do músculo de gerar força. Ajuda diretamente na hipertrofia muscular, aumenta sua capacidade de treino, previne o catabolismo e influência na transcrição gênica.",
+        "whenToTake": "O suplemento Creatina pode ser ingerido em qualquer momento do dia, dependendo da estratégia adotada. Por isso, não há uma só maneira de saber como tomar creatina. Ela pode ser consumida tanto com água quanto na mistura em shakes do pós ou pré-treino. Um detalhe importante é que ela deve ser consumida todos os dias, mesmo nos dias em que você não treina. Dessa forma, é possível evidenciar todos os seus benefícios na rotina. Ela também é insulinodependente, por isso, é preciso consumir junto com alimentos ou suplementos que influenciam a produção de insulina. Entre eles, a dextrose, maltodextrina, arroz, pão, macarrão e proteínas como Whey Protein, por exemplo.",
+        "brand": "Growth",
+        "price": "65"
+      }
+    ]
+  },
+  {
+    "protein": [
+      {
+        "id": 7,
+        "name": "Nutri Whey Protein",
+        "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165427-292-292/POUCH-18KG-COOKIES.png?v=638205297471400000",
+        "weight": "907g",
+        "flavor": "Chocolate",
+        "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+        "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+        "brand": "Integral Medica",
+        "price": "80"
+      },
+      {
+        "id": 8,
+        "name": "Nutri Whey Protein",
+        "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165429-0-0/POUCH-18KG-BAUNILHA.png?v=638205298135370000",
+        "weight": "907g",
+        "flavor": "Baunilha",
+        "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+        "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+        "brand": "Integral Medica",
+        "price": "80"
+      },
+      {
+        "id": 9,
+        "name": "Nutri Whey Protein",
+        "imageURL": "https://integralmedica.vteximg.com.br/arquivos/ids/165428-0-0/POUCH-18KG-MORANGO.png?v=638205297799700000",
+        "weight": "907g",
+        "flavor": "Morango",
+        "description": "Os hipercalóricos de modo geral, são suplementos à base de carboidratos e proteínas que tem como função principal o aumento de peso corporal e ganho de massa magra. Com uma fórmula de fácil solubilidade e delicioso sabor, NutriWhey Protein Pouch é um hipercalórico diferenciado, pois além da oferta energética vinda dos carboidratos. Nutri Whey Pouch contém 30g das melhores proteínas que estão relacionadas a recuperação e ganho de massa muscular, essas proteínas contribuem com o aporte de aminoácidos essenciais que são compostos que participam da síntese proteica e promovem a melhor recuperação principalmente no período pós treino.",
+        "whenToTake": "Deve ser consumido após os treinos com o objetivo de otimizar a recuperação muscular ou entre as refeições visando o aumento da ingestão calórica, de proteínas e carboidratos na dieta durante o dia.",
+        "brand": "Integral Medica",
+        "price": "80"
+      },
+      {
+        "id": 10,
+        "name": "100% Whey",
+        "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/157247-800-800?v=638326568553700000&width=800&height=800&aspect=true",
+        "weight": "900g",
+        "flavor": "Chocolate",
+        "description": "Suplemento a base de proteína concentrada do soro do leite (whey protein concentrate), matéria-prima elaborada com alta tecnologia, de elevado valor biológico, rápida digestibilidade e alta concentração de aminoácidos essenciais, que são fatores de relevância para auxiliar a síntese proteica muscular. O consumo de suplementos proteicos, associado à uma alimentação saudável e prática de atividade física auxilia na formação de músculos e ossos. 100% whey fornece 20g de proteína, 4.597 mg de bcaas e 10,1g de aminoácidos essenciais em 30g de produto.",
+        "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
+        "brand": "Max Titanium",
+        "price": "130"
+      },
+      {
+        "id": 11,
+        "name": "Super Whey",
+        "imageURL": "https://lojamaxtitanium.vtexassets.com/arquivos/ids/155548-800-800?v=637572070001570000&width=800&height=800&aspect=true",
+        "weight": "900g",
+        "flavor": "Chocolate",
+        "description": "Super Whey da Max Titanium é um suplemento alimentar, de carboidratos e proteínas, inovador pois fornece 30g de proteínas por porção. Super Whey possui fórmula eficaz para obtenção de máximo resultado em seus treinos. As proteínas do Super Whey Max Titanium auxiliam na formação de músculos e ossos, além disso, o produto conta com adição de carboidratos, que auxilia na recuperação da função muscular normal após exercícios extenuantes, além de possuir uma grande importância para a recuperação pós-treino, e ao mesmo tempo, potencializa ganho de massa magra.",
+        "whenToTake": "Pode ser consumido como parte de um lanche, como pós treino – para otimizar a recuperação muscular e síntese proteica - e até mesmo na refeição antes de dormir (até 0,6 g proteína por kg de peso), o que também favorece o turnover proteico e síntese proteica muscular.",
+        "brand": "Max Titanium",
+        "price": "80"
+      },
+      {
+        "id": 12,
+        "name": "Whey Protein Concentrado",
+        "imageURL": "https://m.media-amazon.com/images/I/71nEqTGQROL._AC_SY679_.jpg",
+        "weight": "1kg",
+        "flavor": "Morango",
+        "description": "O Whey Protein Concentrado atende desde atletas de ponta com alto rendimento até pessoas sedentárias em busca de saúde, produto feito exclusivamente com proteínas do soro do leite, possui altíssima concentração de aminoácidos essenciais o que confere excelente poder anabólico.",
+        "whenToTake": "O whey protein pode ser consumido com bebidas de sua preferência ou indicadas por um(a) nutricionista, que avalie os melhores horários da sua rotina e leve em consideração o seu objetivo, seja ele para hipertrofia ou emagrecimento.",
+        "brand": "Growth",
+        "price": "130"
+      },
+      {
+        "id": 13,
+        "name": "Basic Whey Protein",
+        "imageURL": "https://m.media-amazon.com/images/I/41anB-09+EL._AC_.jpg",
+        "weight": "1kg",
+        "flavor": "Chocolate",
+        "description": "Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos.",
+        "whenToTake": "Sugerimos 30g do produto como porção, podendo ser diluído no líquido e quantidade de sua preferência. Podem ser consumidas quantas porções o indivíduo precisar ao dia. Isso dependerá da sua dieta e das suas refeições. O Basic pode ser ingerido sempre que faltar proteína via alimentos em uma refeição, podendo ser usado 1, 2, 3X ao dia; A quantidade a ser consumida irá depender da necessidade da sua dieta.",
+        "brand": "Growth",
+        "price": "60"
+      },
+      {
+        "id": 14,
+        "name": "Whey Protein Turbo",
+        "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158338-800-auto?v=638276372234730000",
+        "weight": "907g",
+        "flavor": "Baunilha",
+        "description": "Um suplemento que vai turbinar os seus músculos. Cada dose entrega 30g de proteína em conjunto a maltodextrina. O consumo de carboidratos, como a maltodextrina, em conjunto a proteínas, como o whey protein concentrado, atua na melhora da absorção das proteínas e no fornecimento de energia para o organismo.",
+        "whenToTake": "Misture 12 medida(s) culinária CSPes de sopa (120g) em 150 a 200ml de água, uma vez ao dia ou de acordo com a recomendação de um profissional. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+        "brand": "Black Skull",
+        "price": "56"
+      }
+    ]
+  },
+  {
+    "others": [
+      {
+        "id": 15,
+        "name": "Thermo Flame",
+        "imageURL": "https://blackskullusa.vtexassets.com/arquivos/ids/158606-800-auto?v=638284957889000000&width=800&height=auto&aspect=true",
+        "weight": "120caps",
+        "flavor": "",
+        "description": "Um potente termogênico para ajudar naquele shape rasgado e na repetição a mais que você precisa no treino caveira. Energia, Força e Foco são alguns dos Benefícios da cafeína pura, importante parceiro de treinos sérios e com resultados reais.Ingredientes: Cafeína, Estabilizante Cellulose Microcristalina e Polivinilpirrolidona, Antiumectante Dioxido de Silício e Estearato de Magnésio.",
+        "whenToTake": "Consumir 1 tablete uma vez ao dia. Atletas: 1 tablete, duas vezes ao dia, uma hora antes do treinoou conforme orientação de um profissional da saúde. Importante que seu consumo esteja associado a uma alimentação equilibrada e a prática de exercícios físicos. Recomendação para adultos acima de 19 anos de idade. Consumir imediatamente após o preparo.",
+        "brand": "Black Skull",
+        "price": "40"
+      },
+      {
+        "id": 16,
+        "name": "Termogênico",
+        "imageURL": "https://acdn.mitiendanube.com/stores/192/136/products/sekka_abdomen1-0e670a85607ff9f0b915126494354484-240-0.webp",
+        "weight": "30tabs",
+        "flavor": "",
+        "description": "Quem quer queimar gordura deve conhecer agora o Sekka Abdomen: Um dos mais modernos e poderosos termogênicos do mercado, o Sekka Abdomen Red Series é composto por 420mg de cafeína + Laranja Amarga + Chá verde, que juntos, intensificam a queima de gordura, acelerando o metabolismo.",
+        "whenToTake": "Tomar 1 tablete ao dia.",
+        "brand": "Sekka Abdômen",
+        "price": "30"
+      },
+      {
+        "id": 17,
+        "name": "Colágeno Hidrolisado",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/63/colageno-hidrolisado-150g-growth-supplements.png",
+        "weight": "150g",
+        "flavor": "Laranja",
+        "description": "O colágeno hidrolisado é uma proteína importante para o nosso organismo. Ele representa incríveis 30% de todas as proteínas presentes em nosso corpo - mais do que isso, desempenha funções primordiais para o bem-estar da nossa saúde.",
+        "whenToTake": "A dosagem indicada é de 5g ao dia, porém essa quantidade não pode ser considerada eficiente para todas as pessoas. Cada indivíduo pode ter necessidades nutricionais diferentes, por este motivo sugerimos que consulte um nutricionista para receber a indicação de uso correta.",
+        "brand": "Growth",
+        "price": "33"
+      },
+      {
+        "id": 18,
+        "name": "Colágeno Hidrolisado",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1458/colageno-hidrolisado-120caps-growth-supplements.png",
+        "weight": "120caps",
+        "flavor": "",
+        "description": "O colágeno hidrolisado em cápsula é um suplemento muito eficaz para auxiliar na reparação, cuidados e aparência da pele. Além disso, ajuda o corpo a repor esta proteína, porque mesmo o organismo a produzindo de forma natural, com o passar da idade, essa produção começa a diminuir, provocando alguns efeitos na pele como o ressecamento e o aparecimento de rugas e linhas de expressão. O uso constante do colágeno hidrolisado contribui para amenizar esses efeitos e atribui outros benefícios que promovem a saúde e o bom funcionamento da pele.",
+        "whenToTake": "Antes de consumir o colágeno hidrolisado, o ideal é consultar um nutricionista que irá fazer uma avaliação e um planejamento nutricional dentro dos seus hábitos alimentares, inserindo o colágeno conforme suas deficiências, idade e objetivos.",
+        "brand": "Growth",
+        "price": "35"
+      },
+      {
+        "id": 19,
+        "name": "BCAA 2:1:1",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/16/bcaa-211-120-capsulas-growth.png",
+        "weight": "120caps",
+        "flavor": "",
+        "description": "O suplemento BCAA, constituído pelos aminoácidos Leucina, Valina e Isoleucina, podem te ajudar a conquistar resultados ainda maiores através de uma rotina de treino e dieta adequados. Esses três nutrientes são importantíssimos para a síntese de proteína e o consequente ganho de massa muscular (hipertrofia). Eles auxiliam tanto no processo de recuperação quanto no fornecimento de energia usada durante o treino.",
+        "whenToTake": "O BCAA em cápsula pode ser ingerido junto com seu shake ou isoladamente, de preferência antes ou depois do treino para garantir seus benefícios. Para entender melhor como tomar BCAA, consulte sempre seu nutricionista.",
+        "brand": "Growth",
+        "price": "35"
+      },
+      {
+        "id": 20,
+        "name": "Multivitamínico",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/107/produto-principal.png",
+        "weight": "120caps",
+        "flavor": "",
+        "description": "O multivitamínico é um suplemento importantíssimo, isso porque ele pode ser usado como fonte de nutrientes indispensáveis ao organismo humano. Esse produto contribui com a dieta daquelas pessoas que não podem ou não conseguem se alimentar adequadamente.",
+        "whenToTake": "De acordo com a avaliação do nutricionista, o multivitamínico pode ser indicado para deficiências na dieta e, assim, ser consumido sempre. Já quando o consumo estiver baseado no aumento da necessidade do organismo em razão de atividades físicas, o consumo está, também, condicionado à duração do programa de treinos e sua intensidade.",
+        "brand": "Growth",
+        "price": "47"
+      },
+      {
+        "id": 21,
+        "name": "Óleo de coco spray",
+        "imageURL": "https://a-static.mlcdn.com.br/800x560/oleo-de-coco-spray-growth-100ml-dieta-equilibrada-saudavel-growth-supplements/olistplus/opmgplom2wclzv59/06be1bb9bfa255ef706fb492073779c7.jpeg",
+        "weight": "120ml",
+        "flavor": "Coco",
+        "description": "O óleo de coco spray é um alimento funcional saudável e saboroso, que facilita o preparo de pratos doces e salgados, sendo uma excelente opção para variar as receitas no dia a dia. A sua composição nutricional é rica especialmente em ácidos graxos saturados, como láurico, mirístico e palmítico, além de pequenas quantidades de insaturados.",
+        "whenToTake": "De maneira prática e rápida, o spray óleo de coco pode ser consumido em diversos alimentos do dia a dia. Basta borrifar no recipiente do preparo, como panelas, assadeiras, chapas, etc., e adicionar os ingredientes. As receitas podem ser as mais variadas, como carnes, tortas, bolos, legumes e panquecas.",
+        "brand": "Growth",
+        "price": "28"
+      },
+      {
+        "id": 22,
+        "name": "Barra de proteínas",
+        "imageURL": "https://down-br.img.susercontent.com/file/466c305efebb220bbdca8aeb91b215a5",
+        "weight": "30g",
+        "flavor": "Chocolate",
+        "description": "Embora existam muitas fontes de proteína na alimentação, suprir as necessidades de consumo diário apenas com a dieta pode ser uma tarefa bastante difícil, principalmente pra quem tem uma rotina corrida e paladar exigente, para isso, as barras protéicas são uma deliciosa oportunidade.",
+        "whenToTake": "Consuma como complementod de alimentação em dias em que por algum motivo você não pode fazer um lanche no meio da manhã/tarde, ou numa refeição incompleta pela ausência de proteínas.",
+        "brand": "Growth",
+        "price": "4"
+      },
+      {
+        "id": 23,
+        "name": "Creme de avelã",
+        "imageURL": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/73/creme-de-avela-500g-growth-supplements.png",
+        "weight": "500g",
+        "flavor": "Avelã",
+        "description": "O creme de avelã deve ser considerado uma fonte de gordura na dieta, a proposta da Growth Supplments é oferecer um alimento saboroso, para ser usado como substituição aos doces tradicionais. A estratégia é substituir a grande quantidade de açúcar (sacarose) presente nos doces por uma fonte de gordura, assim podemos ter maior controle glicêmico e insulinêmico da dieta.",
+        "whenToTake": "O creme de avelã Growth pode ser consumido de colher ou adicionado à sua receita favorita. É uma excelente opção para quem precisa controlar a glicemia e ingestão de carboidratos.",
+        "brand": "Growth",
+        "price": "45"
+      },
+      {
+        "id": 24,
+        "name": "Galão d'água",
+        "imageURL": "https://d2r9epyceweg5n.cloudfront.net/stores/002/642/853/products/51-7623d92f791bfd9fc216732777212525-1024-1024.png",
+        "weight": "2L",
+        "flavor": "",
+        "description": "Ajuda a controlar a sua ingestão de água diária e fornece praticidade para levar em qualquer lugar.",
+        "whenToTake": "Utilize para armazenar a água que irá lhe ajudar a se manter hidratado no dia-a-dia.",
+        "brand": "Growth",
+        "price": "30"
+      },
+      {
+        "id": 25,
+        "name": "Coqueteleira",
+        "imageURL": "https://www.gsuplementos.com.br/upload/produto/imagem/b_coqueteleira-simples-growth-supplements.png",
+        "weight": "600ml",
+        "flavor": "",
+        "description": "Ajuda a controlar a sua ingestão de água diária, auxilia na produção de shakes e fornece praticidade para levar em qualquer lugar.",
+        "whenToTake": "Uma coqueteleira é um utensílio usado para misturar ingredientes líquidos e, às vezes, sólidos para criar coquetéis.",
+        "brand": "Growth",
+        "price": "17"
+      }
+    ]
+  }
+]
